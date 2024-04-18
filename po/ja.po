@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: 2022-04-29 03:12+0000\n"
-"Last-Translator: Kaz Sibuya <sibuyakazokuu@gmail.com>\n"
+"PO-Revision-Date: 2024-04-18 12:51+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/tangram/tangram/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
@@ -33,43 +33,43 @@ msgstr "タブをピン留めできるブラウザ"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:13
 msgid "Tangram is a new kind of browser. It is designed to organize and run your Web applications. Each tab is persistent and independent. You can set multiple tabs with different accounts for the same application."
-msgstr "Tangramは新しいタイプのブラウザで、Webアプリケーションを整理して実行させるために設計されています。各タブは永久的で独立しています。一つのWebアプリに対して、異なるアカウントでタブを固定することができます。"
+msgstr "Tangram は新しいタイプのブラウザです。Web アプリケーションを整理して実行するために設計されています。各タブは永久的で独立しているため、同じ Web アプリの複数アカウントを別々のタブで表示できます。"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:17
 msgid "Common use cases:"
-msgstr "一般的な使用例："
+msgstr "よくある使い方:"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:20
 msgid "Stay up to date with your favorite communities; Mastodon, Twitter, ..."
-msgstr "Mastodon、Twitterなど、お気に入りのコミュニティの最新情報をお届け"
+msgstr "Mastodon、Twitter など、お気に入りのコミュニティーの最新情報を入手"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:22
 msgid "Merge all these chat applications into one; WhatsApp, Messenger, Telegram, ..."
-msgstr "WhatsApp、Messenger、Telegramなどのチャットアプリを１つにまとめる"
+msgstr "WhatsApp、Messenger、Telegram などのチャットアプリを 1 か所にまとめる"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:24
 msgid "Group your organization tools under one application; EMail, Calendar, ..."
-msgstr "Eメール、カレンダーなどの組織ツールを一つにまとめる"
+msgstr "E メール、カレンダーなどの組織ツールを一つにまとめる"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:25
 msgid "One-stop for multiple sources of documentation or information"
-msgstr "複数のドキュメントや情報のソースをワンストップで提供"
+msgstr "複数あるドキュメントや情報を 1 か所で確認"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:43
 msgid "Fix a bug preventing to start Tangram"
-msgstr ""
+msgstr "Tangram を起動できない不具合を修正"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:44
 msgid "Reduce the noisiness of logs"
-msgstr ""
+msgstr "過剰なログを削減"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:52
 msgid "Fix a bug preventing to add new tabs"
-msgstr ""
+msgstr "新しいタブを追加できない不具合を修正"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
-msgstr "通知の優先度はデフォルトでは「緊急」ではなく「通常」になりました"
+msgstr "デフォルトの通知の優先度は「緊急」ではなく「通常」になりました"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
@@ -77,31 +77,31 @@ msgstr "タブごとに通知の優先度を変更する設定の追加"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
-msgstr "人気のウェブサイトでの認証を修正"
+msgstr "人気の Web サイトでの認証を修正"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
-msgstr "タブの設定ダイアログのキャンセルボタンを修正"
+msgstr "タブ設定ダイアログのキャンセルボタンを修正"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
-msgstr "中クリックまたはCtrl+クリックでリンクをブラウザで開く"
+msgstr "中クリックまたは Ctrl + クリックでリンクをブラウザで開く"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
-msgstr "ウィンドウタイトルの修正"
+msgstr "ウィンドウタイトルを修正"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
-msgstr "GNOMEランタイムを41にアップデート"
+msgstr "GNOME ランタイムを 41 にアップデート"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
-msgstr "TwitterやFacebookなどの一部のサイトが追加されない問題を修正しました。"
+msgstr "Twitter や Facebook などの一部のサイトが追加されない問題を修正しました。"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
-msgstr "GNOMEランタイムを3.38にアップデート"
+msgstr "GNOME ランタイムを 3.38 にアップデート"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
@@ -117,7 +117,7 @@ msgstr "新しいプロジェクトアイコン/ロゴ"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
-msgstr "新しいダークモードリスペクトな背景のタブ"
+msgstr "ダークモードの設定に同期する新しいタブの背景色"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
@@ -129,27 +129,27 @@ msgstr "ホームボタンを追加"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
-msgstr "デスクトップの統合が向上"
+msgstr "デスクトップとの統合を改善"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
-msgstr "最小化時にメインウィンドウが小さくなるのを修正"
+msgstr "最大化解除時にメインウィンドウが小さくなる不具合を修正"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
-msgstr "タッチパッド・タッチパネルのナビゲーションジェスチャーの有効化"
+msgstr "タッチパッド・タッチスクリーンのスワイプナビゲーションジェスチャーを有効化"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
-msgstr "通知の処理の改善"
+msgstr "通知処理を改善"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
-msgstr "Webの互換性とパフォーマンスの向上"
+msgstr "Web の互換性とパフォーマンスを向上"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
-msgstr "Flatpak 1.0のバージョンでTangramが正常に動作するようになりました (Linux Mint, Ubuntu 18.04, ...)"
+msgstr "Flatpak 1.0 で Tangram が正常に動作するようになりました (Linux Mint, Ubuntu 18.04, ...)"
 
 #: data/re.sonny.Tangram.desktop:13
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
@@ -161,7 +161,7 @@ msgstr "タブの位置"
 
 #: data/re.sonny.Tangram.gschema.xml:23
 msgid "Sets the position of the tabs"
-msgstr "タブの位置を設定する"
+msgstr "タブの位置を設定"
 
 #: data/re.sonny.Tangram.gschema.xml:28
 msgid "Window width"
@@ -173,7 +173,7 @@ msgstr "ウィンドウの幅"
 
 #: data/re.sonny.Tangram.gschema.xml:34
 msgid "Window height"
-msgstr "窓の高さ"
+msgstr "ウィンドウ高さ"
 
 #: data/re.sonny.Tangram.gschema.xml:35
 msgid "Height of the window"
@@ -184,10 +184,8 @@ msgid "Window maximized"
 msgstr "ウィンドウ最大化"
 
 #: data/re.sonny.Tangram.gschema.xml:41
-#, fuzzy
-#| msgid "Weither the window is maximized"
 msgid "Whether the window is maximized"
-msgstr "ウィンドウが最大化されているか"
+msgstr "ウィンドウが最大化されているかどうか"
 
 #: data/re.sonny.Tangram.gschema.xml:46
 msgid "Instances"
@@ -195,7 +193,7 @@ msgstr "インスタンス"
 
 #: data/re.sonny.Tangram.gschema.xml:48
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
-msgstr "/re/sonny/Tangram/instances/ にあるインスタンスの識別子です。"
+msgstr "/re/sonny/Tangram/instances/ にあるインスタンスの識別子"
 
 #: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
@@ -211,7 +209,7 @@ msgstr "URL"
 
 #: data/re.sonny.Tangram.gschema.xml:61
 msgid "Start URL"
-msgstr "スタートURL"
+msgstr "開始 URL"
 
 #: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
@@ -219,7 +217,7 @@ msgstr "ユーザーエージェント"
 
 #: data/re.sonny.Tangram.gschema.xml:67
 msgid "String that will be used as user agent, to identify the browser to the web servers."
-msgstr "ユーザーエージェントとして使用される文字列で、ウェブサーバに対してブラウザの種類を識別するためのものです。"
+msgstr "ユーザーエージェントとして使用される文字列で、Web サーバーがブラウザーを識別するためのものです。"
 
 #: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
@@ -232,25 +230,25 @@ msgstr "通知の優先度の設定"
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
-msgstr "Sibuya Kaz <sibuyakazokuu@gmail.com>"
+msgstr ""
+"Sibuya Kaz <sibuyakazokuu@gmail.com>\n"
+"Ryo Nakano"
 
 #: src/instanceDialog.blp:46
 msgid "Normal"
-msgstr ""
+msgstr "通常"
 
 #: src/instanceDialog.blp:46
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 #: src/instanceDialog.blp:46
 msgid "High"
-msgstr ""
+msgstr "高"
 
 #: src/instanceDialog.blp:46
-#, fuzzy
-#| msgid "User agent"
 msgid "Urgent"
-msgstr "ユーザーエージェント"
+msgstr "緊急"
 
 #: src/shortcuts.blp:11
 msgctxt "shortcut window"
@@ -359,4 +357,4 @@ msgstr "キーボードショートカット"
 
 #: src/menu.blp:45
 msgid "About Tangram"
-msgstr "Tangramについて"
+msgstr "Tangram について"
