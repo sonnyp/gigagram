@@ -7,6 +7,7 @@ import { buildWebView } from "./WebView.js";
 import * as instances from "./instances.js";
 
 import { gettext as _ } from "gettext";
+import { instanceDialog } from "./instanceDialog.js";
 
 export function Tabs({
   state,
@@ -14,6 +15,7 @@ export function Tabs({
   application,
   window,
   onNotification,
+  deleteInstance,
   tab_overview,
 }) {
   const tab_view = builder.get_object("tab_view");
@@ -96,5 +98,13 @@ export function Tabs({
       tab_view.close_page(tab_view.get_page(instance.webview));
     },
     selectTab,
+    editTab(instance, change_view) {
+      selectTab(instance, change_view);
+      instanceDialog({
+        window,
+        instance,
+        onDeleteInstance: deleteInstance,
+      }).catch(logError);
+    },
   };
 }

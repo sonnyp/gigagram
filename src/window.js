@@ -36,6 +36,7 @@ export default function Window({ application, state }) {
   const builder_view_new = Gtk.Builder.new_from_resource(ViewNewInterface);
 
   const window = builder_window.get_object("window");
+  const breakpoint = builder_window.get_object("breakpoint");
 
   const view_new = builder_view_new.get_object("view_new");
   const { focusAddressBar, onNewTab } = ViewNew({
@@ -66,6 +67,7 @@ export default function Window({ application, state }) {
     window,
     onNotification,
     deleteInstance,
+    breakpoint,
   });
 
   const stack_views = builder_window.get_object("stack_views");
@@ -231,6 +233,8 @@ export default function Window({ application, state }) {
     window,
     application,
     selectTab: tabs.selectTab,
+    editTab: tabs.editTab,
+    state,
   });
 
   return window;

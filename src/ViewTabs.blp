@@ -1,11 +1,39 @@
 using Gtk 4.0;
 using Adw 1;
 
-Box view_tabs {
-  orientation: vertical;
+Adw.ToolbarView view_tabs {
+  top-bar-style: flat;
+  bottom-bar-style: raised_border;
+  reveal-top-bars: true;
+  reveal-bottom-bars: false;
 
+  [top]
   Adw.HeaderBar header_bar_content_top {
-    visible: false;
+    [start]
+    Box {
+      spacing: 6;
+      visible: bind tab_overview.open inverted;
+
+      Button button_back_top {
+        icon-name: "go-previous-symbolic";
+        tooltip-text: _("Back");
+      }
+
+      Button button_forward_top {
+        icon-name: "go-next-symbolic";
+        tooltip-text: _("Forward");
+      }
+
+      Button button_reload_top {
+        icon-name: "view-refresh-symbolic";
+        tooltip-text: _("Reload");
+      }
+
+      Button button_home_top {
+        icon-name: "go-home-symbolic";
+        tooltip-text: _("Homepage");
+      }
+    }
 
     [title]
     ToggleButton {
@@ -18,6 +46,23 @@ Box view_tabs {
       }
       active: bind tab_overview.open bidirectional;
     }
+
+    [end]
+    MenuButton {
+      visible: bind tab_overview.open;
+      icon-name: "open-menu-symbolic";
+      menu-model: menu_app;
+      tooltip-text: _("Main Menu");
+      primary: true;
+    }
+
+    [end]
+    Button {
+      visible: bind tab_overview.open inverted;
+      icon-name: "view-more-symbolic";
+      tooltip-text: _("Edit Tab");
+      action-name: "win.editTab";
+    }
   }
 
   Adw.TabOverview tab_overview {
@@ -25,7 +70,6 @@ Box view_tabs {
     hexpand: true;
     vexpand: true;
     enable-new-tab: true;
-
     // Disables the header bar
     enable-search: false;
     show-start-title-buttons: false;
@@ -42,57 +86,62 @@ Box view_tabs {
     };
   }
 
+  [bottom]
   Adw.HeaderBar header_bar_content_bottom {
-    visible: false;
+    [start]
+    Box {
+      spacing: 6;
+      visible: bind tab_overview.open inverted;
+
+      Button button_back_bottom {
+        icon-name: "go-previous-symbolic";
+        tooltip-text: _("Back");
+        width-request: 42;
+      }
+
+      Button button_forward_bottom {
+        icon-name: "go-next-symbolic";
+        tooltip-text: _("Forward");
+        width-request: 42;
+      }
+
+      // Button button_reload_bottom {
+      //   icon-name: "view-refresh-symbolic";
+      //   tooltip-text: _("Reload");
+      // }
+    }
 
     [title]
     ToggleButton {
       icon-name: "tabs-stack-symbolic";
+      tooltip-text: _("Tabs Overview");
       // icon-name: "re.sonny.Tangram-symbolic";
       active: bind tab_overview.open bidirectional;
     }
-  }
-}
 
-MenuButton button_main_menu {
-  visible: bind tab_overview.open;
-  icon-name: "open-menu-symbolic";
-  menu-model: menu_app;
-  tooltip-text: _("Main Menu");
-  primary: true;
-}
+    [end]
+    MenuButton {
+      visible: bind tab_overview.open;
+      icon-name: "open-menu-symbolic";
+      menu-model: menu_app;
+      tooltip-text: _("Main Menu");
+      primary: true;
+    }
 
-Button button_tab_settings {
-  visible:  bind tab_overview.open inverted;
-  icon-name: "view-more-symbolic";
-  tooltip-text: _("Edit Tab");
-}
+    [end]
+    Button {
+      visible: bind tab_overview.open inverted;
+      icon-name: "view-more-symbolic";
+      tooltip-text: _("Edit Tab");
+      action-name: "win.editTab";
+    }
 
-Box navigation_buttons {
-  spacing: 6;
-
-  visible: bind tab_overview.open inverted;
-
-  Button button_back {
-    sensitive: false;
-    icon-name: "go-previous-symbolic";
-    tooltip-text: _("Back");
-  }
-
-  Button button_forward {
-    sensitive: false;
-    icon-name: "go-next-symbolic";
-    tooltip-text: _("Forward");
-  }
-
-  Button button_reload {
-    icon-name: "view-refresh-symbolic";
-    tooltip-text: _("Reload");
-  }
-
-  Button button_home {
-    icon-name: "go-home-symbolic";
-    tooltip-text: _("Homepage");
+    [end]
+      Button button_home_bottom {
+      visible: bind tab_overview.open inverted;
+      icon-name: "go-home-symbolic";
+      tooltip-text: _("Homepage");
+    }
   }
 }
 

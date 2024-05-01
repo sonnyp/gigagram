@@ -3,7 +3,9 @@
   <id>re.sonny.Tangram</id>
   <launchable type="desktop-id">re.sonny.Tangram.desktop</launchable>
   <name>Tangram</name>
-  <developer_name>Sonny Piers</developer_name>
+  <developer id="re.sonny">
+    <name translatable="no">Sonny Piers</name>
+  </developer>
   <update_contact>sonnyp@gnome.org</update_contact>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
@@ -26,9 +28,10 @@
     </ul>
   </description>
   <url type="homepage">https://tangram.sonny.re</url>
-  <url type="bugtracker">https://github.com/sonnyp/Tangram/issues</url>
-  <url type="donation">https://ko-fi.com/sonnyp</url>
+  <url type="bugtracker">https://tangram.sonny.re/feedback</url>
+  <url type="donation">https://tangram.sonny.re/donate</url>
   <url type="translate">https://hosted.weblate.org/engage/tangram/</url>
+  <url type="vcs-browser">https://tangram.sonny.re/source</url>
   <screenshots>
     <screenshot type="default">
       <image
@@ -41,8 +44,16 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="4.0" date="2024-05-xx">
+      <description translatable="no">
+        <ul>
+          <li>Use GNOME 46</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="3.0" date="2023-04-29">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Replace sidebar with an overview</li>
           <li>Show an indicator in overview for tabs playing audio</li>
@@ -57,7 +68,7 @@
     </release>
 
     <release version="2.0" date="2023-01-18">
-      <description>
+      <description translatable="no">
         <ul>
           <li>New responsive and mobile UI</li>
           <li>Improve onboarding experience</li>
@@ -68,7 +79,7 @@
     </release>
 
     <release version="1.5.0" date="2023-01-04" urgency="high">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Update GNOME runtime to 43</li>
         </ul>
@@ -76,7 +87,7 @@
     </release>
 
     <release version="1.4.2" date="2022-04-23" urgency="high">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fix a bug preventing to start Tangram</li>
           <li>Reduce the noisiness of logs</li>
@@ -85,7 +96,7 @@
     </release>
 
     <release version="1.4.1" date="2022-04-16" urgency="high">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fix a bug preventing to add new tabs</li>
         </ul>
@@ -93,7 +104,7 @@
     </release>
 
     <release version="1.4.0" date="2021-11-20">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Notifications priority is normal instead of urgent by default</li>
           <li>Add a per-tab setting to change notifications priority</li>
@@ -105,7 +116,7 @@
     </release>
 
     <release version="1.3.2" date="2021-10-25">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Fix window title</li>
           <li>Update GNOME runtime to 41</li>
@@ -114,7 +125,7 @@
     </release>
 
     <release version="1.3.1" date="2020-09-12" urgency="high">
-      <description>
+      <description translatable="no">
         <ul>
           <li
           >Fix an issue preventing some sites such as Twitter or Facebook from being added.</li>
@@ -124,7 +135,7 @@
     </release>
 
     <release version="1.3.0" date="2020-09-12">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Enable spell checking</li>
           <li>Customizable user-agent per instance</li>
@@ -135,7 +146,7 @@
     </release>
 
     <release version="1.2.0" date="2019-09-19">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Add support for downloading files</li>
           <li>Add home button</li>
@@ -147,7 +158,7 @@
     </release>
 
     <release version="1.1.0" date="2019-09-14">
-      <description>
+      <description translatable="no">
         <ul>
           <li>Better notifications handling</li>
           <li>Improved web compatibility and performances</li>
@@ -164,8 +175,13 @@
     <kudo>ModernToolkit</kudo>
     <kudo>Notifications</kudo>
   </kudos>
-  <custom>
-    <value key="Purism::form_factor">workstation</value>
-    <value key="Purism::form_factor">mobile</value>
-  </custom>
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
 </component>

@@ -32,7 +32,7 @@ ${Gst.version_string()}
       version: pkg.version,
       website: "https://tangram.sonny.re",
       application_icon: pkg.name,
-      issue_url: "https://github.com/sonnyp/Tangram/issues",
+      issue_url: "https://tangram.sonny.re/feedback",
       // TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
       translator_credits: _("translator-credits"),
       debug_info,

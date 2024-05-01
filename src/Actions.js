@@ -8,7 +8,13 @@ import * as instances from "./instances.js";
 
 import InterfaceShortcuts from "./shortcuts.blp";
 
-export default function Actions({ window, application, selectTab }) {
+export default function Actions({
+  window,
+  application,
+  selectTab,
+  state,
+  editTab,
+}) {
   const builder = Gtk.Builder.new_from_resource(InterfaceShortcuts);
 
   const showAboutDialog = new Gio.SimpleAction({
@@ -19,6 +25,19 @@ export default function Actions({ window, application, selectTab }) {
     AboutDialog({ application });
   });
   application.add_action(showAboutDialog);
+
+  const action_editTab = new Gio.SimpleAction({
+    name: "editTab",
+    parameter_type: null,
+  });
+  action_editTab.connect("activate", () => {
+    const instance_id = state.get("webview")?.instance_id;
+    if (!instance_id) return;
+    const instance = instances.get(instance_id);
+    if (!instance) return;
+    editTab(instance);
+  });
+  window.add_action(action_editTab);
 
   const showShortcutsDialog = new Gio.SimpleAction({
     name: "shortcuts",

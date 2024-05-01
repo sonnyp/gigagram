@@ -1,9 +1,8 @@
 import { Tabs } from "./tabs.js";
-import * as instances from "./instances.js";
 import Gtk from "gi://Gtk";
 import Gdk from "gi://Gdk";
-
-import { instanceDialog } from "./instanceDialog.js";
+import GObject from "gi://GObject";
+import Adw from "gi://Adw";
 
 export function ViewTabs({
   application,
@@ -18,18 +17,32 @@ export function ViewTabs({
   window,
   onNotification,
   deleteInstance,
+  breakpoint,
 }) {
   const tab_overview = builder.get_object("tab_overview");
 
-  const button_back = builder.get_object("button_back");
-  button_back.connect("clicked", onGoBack);
+  const button_back_top = builder.get_object("button_back_top");
+  const button_back_bottom = builder.get_object("button_back_bottom");
+  button_back_top.connect("clicked", onGoBack);
+  button_back_bottom.connect("clicked", onGoBack);
 
-  const button_forward = builder.get_object("button_forward");
-  button_forward.connect("clicked", onGoForward);
+  const button_forward_top = builder.get_object("button_forward_top");
+  const button_forward_bottom = builder.get_object("button_forward_bottom");
+  button_forward_top.connect("clicked", onGoForward);
+  button_forward_bottom.connect("clicked", onGoForward);
 
-  const button_reload = builder.get_object("button_reload");
+  const button_home_top = builder.get_object("button_home_top");
+  button_home_top.connect("clicked", onGoHome);
+  const button_home_bottom = builder.get_object("button_home_bottom");
+  button_home_bottom.connect("clicked", onGoHome);
+
+  const button_reload_top = builder.get_object("button_reload_top");
+  // const button_reload_bottom = builder.get_object("button_reload_bottom");
+
   const event_controller_click = new Gtk.GestureClick({ button: 0 });
-  button_reload.add_controller(event_controller_click);
+  button_reload_top.add_controller(event_controller_click);
+  // button_reload_bottom.add_controller(event_controller_click);
+
   event_controller_click.connect("pressed", () => {
     const event = event_controller_click.get_current_event();
     const button = event.get_button();
@@ -47,15 +60,6 @@ export function ViewTabs({
     }
   });
 
-  function editTab(instance, change_view) {
-    tabs.selectTab(instance, change_view);
-    instanceDialog({
-      window,
-      instance,
-      onDeleteInstance: deleteInstance,
-    }).catch(logError);
-  }
-
   const tabs = Tabs({
     state,
     application,
@@ -66,71 +70,44 @@ export function ViewTabs({
     tab_overview,
   });
 
-  const button_tab_settings = builder.get_object("button_tab_settings");
-  button_tab_settings.connect("clicked", () => {
-    const instance_id = state.get("webview")?.instance_id;
-    if (!instance_id) return;
-    const instance = instances.get(instance_id);
-    if (!instance) return;
-    editTab(instance);
-  });
+  const view_tabs = builder.get_object("view_tabs");
 
-  const navigation_buttons = builder.get_object("navigation_buttons");
-  const button_main_menu = builder.get_object("button_main_menu");
+  tab_overview.bind_property_full(
+    "open",
+    view_tabs,
+    "top-bar-style",
+    GObject.BindingFlags.SYNC_CREATE,
+    (binding, open) => {
+      return [true, Adw.ToolbarStyle[open ? "FLAT" : "RAISED"]];
+    },
+    null,
+  );
 
-  let is_handheld_state = null;
-  const header_bar_bottom = builder.get_object("header_bar_content_bottom");
-  const header_bar_top = builder.get_object("header_bar_content_top");
-
-  function setupHeaderbar() {
-    const width = window.get_width() || window.default_width;
-    const height = window.get_height() || window.default_height;
-    const is_handheld =
-      height > width && (window.maximized || window.fullscreened);
-
-    if (is_handheld === is_handheld_state) return;
-    is_handheld_state = is_handheld;
-
-    for (const item of [
-      navigation_buttons,
-      button_main_menu,
-      button_tab_settings,
-    ]) {
-      item.parent?.remove(item);
-    }
-
-    header_bar_bottom.visible = is_handheld;
-    header_bar_top.visible = !is_handheld;
-
-    const header_bar = is_handheld ? header_bar_bottom : header_bar_top;
-    header_bar.pack_start(navigation_buttons);
-    header_bar.pack_end(button_tab_settings);
-    header_bar.pack_end(button_main_menu);
+  function setupHeaderbar(is_handheld) {
+    view_tabs.reveal_bottom_bars = is_handheld;
+    view_tabs.reveal_top_bars = !is_handheld;
   }
 
-  // Ugly but does the work until we get Libadwaita 1.4 and breakpoints
-  window.connect("notify::default-width", setupHeaderbar);
-  window.connect("notify::default-heigh", setupHeaderbar);
-  window.connect("notify::maximized", () => {
-    setTimeout(setupHeaderbar);
+  breakpoint.connect("apply", () => {
+    setupHeaderbar(true);
+    // setupHeaderbar(window.maximized || window.fullscreened);
   });
-  window.connect("notify::fullscreened", () => {
-    setTimeout(setupHeaderbar);
+  breakpoint.connect("unapply", () => {
+    setupHeaderbar(false);
   });
-  window.connect("show", setupHeaderbar);
-
-  const button_home = builder.get_object("button_home");
-  button_home.connect("clicked", onGoHome);
 
   tab_overview.connect("create-tab", onNewTab);
 
   function updateButtons(webview) {
-    button_back.sensitive = webview && webview.can_go_back();
-    button_forward.sensitive = webview && webview.can_go_forward();
-    button_reload.icon_name =
-      webview && webview.is_loading
-        ? "process-stop-symbolic"
-        : "view-refresh-symbolic";
+    button_back_top.sensitive = webview.can_go_back();
+    button_back_bottom.sensitive = webview.can_go_back();
+    button_forward_top.sensitive = webview.can_go_forward();
+    button_forward_bottom.sensitive = webview.can_go_forward();
+    const icon_name = webview.is_loading
+      ? "process-stop-symbolic"
+      : "view-refresh-symbolic";
+    button_reload_top.icon_name = icon_name;
+    // button_reload_bottom.icon_name = icon_name;
   }
 
   let loadChangedHandlerId = null;

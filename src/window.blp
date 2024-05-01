@@ -5,6 +5,12 @@ Adw.ApplicationWindow window {
   resizable: true;
   default-width: 800;
   default-height: 600;
+  width-request: 360;
+  height-request: 360;
+
+  Adw.Breakpoint breakpoint {
+    condition ("max-width: 460")
+  }
 
   Stack stack_views {
     hhomogeneous: true;
