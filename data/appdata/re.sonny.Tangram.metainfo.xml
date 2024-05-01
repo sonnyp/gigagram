@@ -3,7 +3,9 @@
   <id>re.sonny.Tangram</id>
   <launchable type="desktop-id">re.sonny.Tangram.desktop</launchable>
   <name>Tangram</name>
-  <developer_name>Sonny Piers</developer_name>
+  <developer id="re.sonny">
+    <name translatable="no">Sonny Piers</name>
+  </developer>
   <update_contact>sonnyp@gnome.org</update_contact>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
@@ -25,11 +27,11 @@
       <li>One-stop for multiple sources of documentation or information</li>
     </ul>
   </description>
-  <url type="homepage">https://apps.gnome.org/Tangram</url>
-  <url type="bugtracker">https://github.com/sonnyp/Tangram/issues</url>
-  <url type="donation">https://ko-fi.com/sonnyp</url>
+  <url type="homepage">https://tangram.sonny.re</url>
+  <url type="bugtracker">https://tangram.sonny.re/feedback</url>
+  <url type="donation">https://tangram.sonny.re/donate</url>
   <url type="translate">https://hosted.weblate.org/engage/tangram/</url>
-  <url type="vcs-browser">https://github.com/sonnyp/Tangram/</url>
+  <url type="vcs-browser">https://tangram.sonny.re/source</url>
   <screenshots>
     <screenshot type="default">
       <image
@@ -42,10 +44,10 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="4.0" date="2024-01-xx">
+    <release version="4.0" date="2024-05-xx">
       <description translatable="no">
         <ul>
-          <li>Use GNOME 45</li>
+          <li>Use GNOME 46</li>
         </ul>
       </description>
     </release>
@@ -177,14 +179,9 @@
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
-  <recommends>
+  <supports>
     <control>keyboard</control>
     <control>pointing</control>
     <control>touch</control>
-  </recommends>
-
-  <custom>
-    <value key="Purism::form_factor">workstation</value>
-    <value key="Purism::form_factor">mobile</value>
-  </custom>
+  </supports>
 </component>

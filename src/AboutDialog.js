@@ -30,9 +30,9 @@ ${Gst.version_string()}
       copyright: "© 2019-2023 Sonny Piers",
       license_type: Gtk.License.GPL_3_0_ONLY,
       version: pkg.version,
-      website: "https://apps.gnome.org/Tangram/",
+      website: "https://tangram.sonny.re",
       application_icon: pkg.name,
-      issue_url: "https://github.com/sonnyp/Tangram/issues",
+      issue_url: "https://tangram.sonny.re/feedback",
       // TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
       translator_credits: _("translator-credits"),
       debug_info,

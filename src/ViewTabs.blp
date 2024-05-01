@@ -3,7 +3,7 @@ using Adw 1;
 
 Adw.ToolbarView view_tabs {
   top-bar-style: flat;
-  bottom-bar-style: raised;
+  bottom-bar-style: raised_border;
   reveal-top-bars: true;
   reveal-bottom-bars: false;
 
@@ -12,7 +12,7 @@ Adw.ToolbarView view_tabs {
     [start]
     Box {
       spacing: 6;
-      visible: bind-property tab_overview.open inverted;
+      visible: bind tab_overview.open inverted;
 
       Button button_back_top {
         icon-name: "go-previous-symbolic";
@@ -44,12 +44,12 @@ Adw.ToolbarView view_tabs {
         label: "_Tangram";
         use-underline: true;
       }
-      active: bind-property tab_overview.open bidirectional;
+      active: bind tab_overview.open bidirectional;
     }
 
     [end]
     MenuButton {
-      visible: bind-property tab_overview.open;
+      visible: bind tab_overview.open;
       icon-name: "open-menu-symbolic";
       menu-model: menu_app;
       tooltip-text: _("Main Menu");
@@ -58,7 +58,7 @@ Adw.ToolbarView view_tabs {
 
     [end]
     Button {
-      visible: bind-property tab_overview.open inverted;
+      visible: bind tab_overview.open inverted;
       icon-name: "view-more-symbolic";
       tooltip-text: _("Edit Tab");
       action-name: "win.editTab";
@@ -91,7 +91,7 @@ Adw.ToolbarView view_tabs {
     [start]
     Box {
       spacing: 6;
-      visible: bind-property tab_overview.open inverted;
+      visible: bind tab_overview.open inverted;
 
       Button button_back_bottom {
         icon-name: "go-previous-symbolic";
@@ -104,6 +104,11 @@ Adw.ToolbarView view_tabs {
         tooltip-text: _("Forward");
         width-request: 42;
       }
+
+      // Button button_reload_bottom {
+      //   icon-name: "view-refresh-symbolic";
+      //   tooltip-text: _("Reload");
+      // }
     }
 
     [title]
@@ -111,12 +116,12 @@ Adw.ToolbarView view_tabs {
       icon-name: "tabs-stack-symbolic";
       tooltip-text: _("Tabs Overview");
       // icon-name: "re.sonny.Tangram-symbolic";
-      active: bind-property tab_overview.open bidirectional;
+      active: bind tab_overview.open bidirectional;
     }
 
     [end]
     MenuButton {
-      visible: bind-property tab_overview.open;
+      visible: bind tab_overview.open;
       icon-name: "open-menu-symbolic";
       menu-model: menu_app;
       tooltip-text: _("Main Menu");
@@ -125,7 +130,7 @@ Adw.ToolbarView view_tabs {
 
     [end]
     Button {
-      visible: bind-property tab_overview.open inverted;
+      visible: bind tab_overview.open inverted;
       icon-name: "view-more-symbolic";
       tooltip-text: _("Edit Tab");
       action-name: "win.editTab";
@@ -133,7 +138,7 @@ Adw.ToolbarView view_tabs {
 
     [end]
       Button button_home_bottom {
-      visible: bind-property tab_overview.open inverted;
+      visible: bind tab_overview.open inverted;
       icon-name: "go-home-symbolic";
       tooltip-text: _("Homepage");
     }
