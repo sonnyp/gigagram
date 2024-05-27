@@ -36,18 +36,15 @@
     <screenshot type="default">
       <image
       >https://raw.githubusercontent.com/sonnyp/Tangram/main/data/appdata/desktop.png</image>
-    </screenshot>
-    <screenshot>
-      <image
-      >https://raw.githubusercontent.com/sonnyp/Tangram/main/data/appdata/mobile.png</image>
+      <caption>Tabs overview</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="4.0" date="2024-05-xx">
+    <release version="3.1" date="2024-05-27">
       <description translatable="no">
         <ul>
-          <li>Use GNOME 46</li>
+          <li>Use GNOME platform 46</li>
         </ul>
       </description>
     </release>
@@ -175,6 +172,11 @@
     <kudo>ModernToolkit</kudo>
     <kudo>Notifications</kudo>
   </kudos>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#fa97af</color>
+    <color type="primary" scheme_preference="dark">#4644ad</color>
+  </branding>
 
   <requires>
     <display_length compare="ge">360</display_length>
