@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 00:55+0100\n"
+"POT-Creation-Date: 2022-09-18 16:27+0200\n"
 "PO-Revision-Date: 2022-04-29 03:12+0000\n"
 "Last-Translator: Fedor <fed777os@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/tangram/tangram/fi/>\n"
@@ -55,87 +55,99 @@ msgstr "Kokoa järjestösi työvälineet yhteen ohjelmistoon; Sähköposti, kale
 msgid "One-stop for multiple sources of documentation or information"
 msgstr "Yksi pysähdys monelle tiedon tai dokumentaation lähteelle"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:42
+#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+msgid "Fix a bug preventing to start Tangram"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+msgid "Reduce the noisiness of logs"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:52
+msgid "Fix a bug preventing to add new tabs"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
 msgstr "Ilmoitusten oletusprioriteetti on normaali kiireellisen sijaan"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+#: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
 msgstr "Lisää välilehtikohtainen asetus muuttaaksesi ilmoitusten prioriteettia"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+#: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
 msgstr "Korjaa monen suositun sivuston todennus"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:45
+#: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
 msgstr "korjaa Peruuta-painike välilehden asetusten valintaikkunassa"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:46
+#: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
 msgstr "Käytä keskinapsautusta tai Ctrl+napsautusta linkkien avaamiseen selaimessa"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:54
+#: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
 msgstr "Korjaa ikkunan otsikko"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:55
+#: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
 msgstr "Päivitä GNOME-ajoaika versioon 41"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:64
+#: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
 msgstr "Korjaa virhe joka estää joidenkin sivustojen kuten Twitter tai Facebook lisäämisen."
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:65
+#: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
 msgstr "Päivitä GNOME-ajoaika versioon 3.38"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:73
+#: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
 msgstr "Ota käyttöön oikeinkirjoituksen tarkistus"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:74
+#: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
 msgstr "Muokattava käyttäjäagentti joka välilehteä kohden"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:75
+#: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
 msgstr "Uusi logo/kuvake projektille"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:76
+#: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
 msgstr "Uuden välilehden tausta mukautuu tummaan tilaan"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:84
+#: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
 msgstr "Tue tiedostojen lataamista"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:85
+#: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
 msgstr "Lisää kotisivupainike"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:86
+#: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
 msgstr "Parempi työpöydän integraatio"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:87
+#: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
 msgstr "Korjaa pääikkunan pienentyminen ikkunan koon palautuessa"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:88
+#: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
 msgstr "Ota käyttöön kosketuslevyn/kosketusnäytön pyyhintäeleellinen ohjaus"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:96
+#: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
 msgstr "Parempi ilmoitusten käsittely"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:97
+#: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
 msgstr "Parannettu verkkoyhteensopivuus ja suoritus"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:99
+#: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 msgstr "Tangram toimii nyt oikein Flatpak 1.0:lla (Linux Mint, Ubuntu 18.04, …)"
 
@@ -143,7 +155,7 @@ msgstr "Tangram toimii nyt oikein Flatpak 1.0:lla (Linux Mint, Ubuntu 18.04, …
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
 msgstr "Franz;Ferdi;Rambox;Wavebox;Station;"
 
-#: data/re.sonny.Tangram.gschema.xml:22 data/menu.ui:8
+#: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
 msgstr "Välilehtien sijainti"
 
@@ -172,7 +184,9 @@ msgid "Window maximized"
 msgstr "Ikkuna suurennettu"
 
 #: data/re.sonny.Tangram.gschema.xml:41
-msgid "Weither the window is maximized"
+#, fuzzy
+#| msgid "Weither the window is maximized"
+msgid "Whether the window is maximized"
 msgstr "Josko ikkuna on suurennettu"
 
 #: data/re.sonny.Tangram.gschema.xml:46
@@ -183,7 +197,7 @@ msgstr "Ilmentymät"
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
 msgstr "Tunnisteet ilmentymille jotka löytyvät polusta /re/sonny/Tangram/instances/"
 
-#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.ui:29
+#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
 msgstr "Nimi"
 
@@ -191,7 +205,7 @@ msgstr "Nimi"
 msgid "Name to display"
 msgstr "Näytettävä nimi"
 
-#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.ui:43
+#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
 msgstr "URL-osoite"
 
@@ -199,7 +213,7 @@ msgstr "URL-osoite"
 msgid "Start URL"
 msgstr "Aloitus-URL"
 
-#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.ui:79
+#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
 msgstr "Käyttäjäagentti"
 
@@ -207,7 +221,7 @@ msgstr "Käyttäjäagentti"
 msgid "String that will be used as user agent, to identify the browser to the web servers."
 msgstr "Merkkijono, jota käytetään käyttäjäagenttina selaimen tunnistamiseen web-palvelimille."
 
-#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.ui:59
+#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
 msgstr "Ilmoitusten prioriteetti"
 
@@ -215,116 +229,134 @@ msgstr "Ilmoitusten prioriteetti"
 msgid "Sets the priority of notifications"
 msgstr "Asettaa ilmoitusten prioriteetin"
 
-#: data/menu.ui:11
-msgid "Top"
-msgstr "Yläosa"
-
-#: data/menu.ui:16
-msgid "Left"
-msgstr "Vasen"
-
-#: data/menu.ui:21
-msgid "Right"
-msgstr "Oikea"
-
-#: data/menu.ui:26
-msgid "Bottom"
-msgstr "Alaosa"
-
-#: data/menu.ui:37
-msgid "Keyboard Shortcuts"
-msgstr "Pikanäppäimet"
-
-#: data/menu.ui:41
-msgid "About Tangram"
-msgstr "Tietoja - Tangram"
-
-#: data/shortcuts.ui:17
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Yleiset"
-
-#: data/shortcuts.ui:24
-msgctxt "shortcut window"
-msgid "Go to the next tab"
-msgstr "Siirry seuraavaan välilehteen"
-
-#: data/shortcuts.ui:36
-msgctxt "shortcut window"
-msgid "Go to the previous tab"
-msgstr "Siirry edelliseen välilehteen"
-
-#: data/shortcuts.ui:48
-msgctxt "shortcut window"
-msgid "Move current tab to the left"
-msgstr "Siirrä nykyinen välilehti vasemmalle"
-
-#: data/shortcuts.ui:60
-msgctxt "shortcut window"
-msgid "Move current tab to the right"
-msgstr "Siirrä nykyinen välilehti oikealle"
-
-#: data/shortcuts.ui:72
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Lopeta"
-
-#: data/shortcuts.ui:82
-msgctxt "shortcut window"
-msgid "Shortcuts"
-msgstr "Pikanäppäimet"
-
-#: data/shortcuts.ui:92
-msgctxt "shortcut window"
-msgid "Toggle inspector"
-msgstr "Tarkastaja päälle/pois"
-
-#: data/shortcuts.ui:104
-msgctxt "shortcut window"
-msgid "First – Ninth Tab"
-msgstr "1. - 9. välilehti"
-
-#: data/shortcuts.ui:116
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "Liikkuminen"
-
-#: data/shortcuts.ui:123
-msgctxt "shortcut window"
-msgid "Go to homepage"
-msgstr "Siirry kotisivulle"
-
-#: data/shortcuts.ui:133
-msgctxt "shortcut window"
-msgid "Reload current page"
-msgstr "Lataa nykyinen sivu uudelleen"
-
-#: data/shortcuts.ui:143
-msgctxt "shortcut window"
-msgid "Reload bypassing cache"
-msgstr "Lataa sivu uudelleen ohittaen välimuisti"
-
-#: data/shortcuts.ui:155
-msgctxt "shortcut window"
-msgid "Stop loading current page"
-msgstr "Lopeta nykyisen sivun lataaminen"
-
-#: data/shortcuts.ui:165 data/shortcuts.ui:198
-msgctxt "shortcut window"
-msgid "Go back to the previous page"
-msgstr "Siirry edelliselle sivulle"
-
-#: data/shortcuts.ui:175 data/shortcuts.ui:210
-msgctxt "shortcut window"
-msgid "Go forward to the next page"
-msgstr "Siirry seuraavalle sivulle"
-
-#: data/shortcuts.ui:185
-msgctxt "shortcut window"
-msgid "Focus the address bar"
-msgstr "Kohdista osoiteriville"
-
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
 msgstr "kääntäjän arvosanat"
+
+#: src/instanceDialog.blp:46
+msgid "Normal"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "Low"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "High"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+#, fuzzy
+#| msgid "User agent"
+msgid "Urgent"
+msgstr "Käyttäjäagentti"
+
+#: src/shortcuts.blp:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Yleiset"
+
+#: src/shortcuts.blp:14
+msgctxt "shortcut window"
+msgid "Go to the next tab"
+msgstr "Siirry seuraavaan välilehteen"
+
+#: src/shortcuts.blp:19
+msgctxt "shortcut window"
+msgid "Go to the previous tab"
+msgstr "Siirry edelliseen välilehteen"
+
+#: src/shortcuts.blp:24
+msgctxt "shortcut window"
+msgid "Move current tab to the left"
+msgstr "Siirrä nykyinen välilehti vasemmalle"
+
+#: src/shortcuts.blp:29
+msgctxt "shortcut window"
+msgid "Move current tab to the right"
+msgstr "Siirrä nykyinen välilehti oikealle"
+
+#: src/shortcuts.blp:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Lopeta"
+
+#: src/shortcuts.blp:39
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Pikanäppäimet"
+
+#: src/shortcuts.blp:44
+msgctxt "shortcut window"
+msgid "Toggle inspector"
+msgstr "Tarkastaja päälle/pois"
+
+#: src/shortcuts.blp:49
+msgctxt "shortcut window"
+msgid "First – Ninth Tab"
+msgstr "1. - 9. välilehti"
+
+#: src/shortcuts.blp:55
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Liikkuminen"
+
+#: src/shortcuts.blp:58
+msgctxt "shortcut window"
+msgid "Go to homepage"
+msgstr "Siirry kotisivulle"
+
+#: src/shortcuts.blp:63
+msgctxt "shortcut window"
+msgid "Reload current page"
+msgstr "Lataa nykyinen sivu uudelleen"
+
+#: src/shortcuts.blp:68
+msgctxt "shortcut window"
+msgid "Reload bypassing cache"
+msgstr "Lataa sivu uudelleen ohittaen välimuisti"
+
+#: src/shortcuts.blp:73
+msgctxt "shortcut window"
+msgid "Stop loading current page"
+msgstr "Lopeta nykyisen sivun lataaminen"
+
+#: src/shortcuts.blp:78 src/shortcuts.blp:94
+msgctxt "shortcut window"
+msgid "Go back to the previous page"
+msgstr "Siirry edelliselle sivulle"
+
+#: src/shortcuts.blp:83 src/shortcuts.blp:99
+msgctxt "shortcut window"
+msgid "Go forward to the next page"
+msgstr "Siirry seuraavalle sivulle"
+
+#: src/shortcuts.blp:88
+msgctxt "shortcut window"
+msgid "Focus the address bar"
+msgstr "Kohdista osoiteriville"
+
+#: src/menu.blp:13
+msgid "Top"
+msgstr "Yläosa"
+
+#: src/menu.blp:19
+msgid "Left"
+msgstr "Vasen"
+
+#: src/menu.blp:25
+msgid "Right"
+msgstr "Oikea"
+
+#: src/menu.blp:31
+msgid "Bottom"
+msgstr "Alaosa"
+
+#: src/menu.blp:40
+msgid "Keyboard Shortcuts"
+msgstr "Pikanäppäimet"
+
+#: src/menu.blp:45
+msgid "About Tangram"
+msgstr "Tietoja - Tangram"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 00:55+0100\n"
+"POT-Creation-Date: 2022-09-18 16:27+0200\n"
 "PO-Revision-Date: 2022-04-29 03:12+0000\n"
 "Last-Translator: Fedor <fed777os@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/tangram/tangram/nb_NO/>\n"
@@ -55,87 +55,99 @@ msgstr "Grupper dine organisasjonsverktøy under ett program; E-post, kalender �
 msgid "One-stop for multiple sources of documentation or information"
 msgstr "Ditt stoppested for flerfoldige kilder til dokumentasjon og info"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:42
+#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+msgid "Fix a bug preventing to start Tangram"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+msgid "Reduce the noisiness of logs"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:52
+msgid "Fix a bug preventing to add new tabs"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
 msgstr "Merknadsprioritet er som forvalg «normal» istedenfor «haster»"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+#: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
 msgstr "Innstillinger per fane for endring av merknadsprioritet"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+#: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
 msgstr "Fiks identitetsbekreftelse på mange populære nettsider"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:45
+#: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
 msgstr "Fiks «Avbryt»-knapp i innstillingsdialog"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:46
+#: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
 msgstr "Bruk midtklikk eller Ctrl+klikk for å åpne lenker i nettleseren"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:54
+#: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
 msgstr "Fikset vindustittel"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:55
+#: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
 msgstr "Oppdatert GNOME-kjøreomgivelse til 41"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:64
+#: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
 msgstr "Fikset en feil som forhindrer noen sider som f.eks. Twitter eller Facebook fra å bli lagt til."
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:65
+#: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
 msgstr "Oppdatert GNOME-kjøreomgivelse til 3.38"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:73
+#: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
 msgstr "Påskrudd stavekontroll"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:74
+#: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
 msgstr "Tilpasset brukeragent per instans"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:75
+#: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
 msgstr "Nytt prosjektikon/logo"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:76
+#: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
 msgstr "Ny fanebakgrunnsfarge som respekterer mørkt draktvalg"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:84
+#: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
 msgstr "Støtte for nedlasting av filer"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:85
+#: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
 msgstr "«Hjem»-knapp lagt til"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:86
+#: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
 msgstr "Bedre skrivebordsintegrering"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:87
+#: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
 msgstr "Fikset at hovedvindu ble lite ved oppheving av maksimering"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:88
+#: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
 msgstr "Påskrudd navigasjonshåndvendinger for pekeflate"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:96
+#: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
 msgstr "Bedre håndtering av merknader"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:97
+#: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
 msgstr "Forbedret nett-kompabilitet og ytelse"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:99
+#: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 msgstr "Tangram fungerer nå bra med Flatpak 1.0 (Linux Mint, Ubuntu 18.04 …)"
 
@@ -143,7 +155,7 @@ msgstr "Tangram fungerer nå bra med Flatpak 1.0 (Linux Mint, Ubuntu 18.04 …)"
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
 msgstr "Franz;Ferdi;Rambox;Wavebox;Station;"
 
-#: data/re.sonny.Tangram.gschema.xml:22 data/menu.ui:8
+#: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
 msgstr "Faneposisjon"
 
@@ -172,7 +184,9 @@ msgid "Window maximized"
 msgstr "Vindu maksimert"
 
 #: data/re.sonny.Tangram.gschema.xml:41
-msgid "Weither the window is maximized"
+#, fuzzy
+#| msgid "Weither the window is maximized"
+msgid "Whether the window is maximized"
 msgstr "Hvorvidt vinduet er maksimert"
 
 #: data/re.sonny.Tangram.gschema.xml:46
@@ -183,7 +197,7 @@ msgstr "Instanser"
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
 msgstr "Gjenkjenner instansene som er å finne i /re/sonny/Tangram/instances/"
 
-#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.ui:29
+#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
 msgstr "Navn"
 
@@ -191,7 +205,7 @@ msgstr "Navn"
 msgid "Name to display"
 msgstr "Navn å vise"
 
-#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.ui:43
+#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
 msgstr "Nettadresse"
 
@@ -199,7 +213,7 @@ msgstr "Nettadresse"
 msgid "Start URL"
 msgstr "Start-nettadresse"
 
-#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.ui:79
+#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
 msgstr "Brukeragent"
 
@@ -207,7 +221,7 @@ msgstr "Brukeragent"
 msgid "String that will be used as user agent, to identify the browser to the web servers."
 msgstr "Streng brukt til å tilkjennegi hvilken nettleser du bruker til nett-tjenere."
 
-#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.ui:59
+#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
 msgstr "Merknadsprioritet"
 
@@ -215,116 +229,134 @@ msgstr "Merknadsprioritet"
 msgid "Sets the priority of notifications"
 msgstr "Setter prioritet for merknader"
 
-#: data/menu.ui:11
-msgid "Top"
-msgstr "Topp"
-
-#: data/menu.ui:16
-msgid "Left"
-msgstr "Venstre"
-
-#: data/menu.ui:21
-msgid "Right"
-msgstr "Høyre"
-
-#: data/menu.ui:26
-msgid "Bottom"
-msgstr "Bunn"
-
-#: data/menu.ui:37
-msgid "Keyboard Shortcuts"
-msgstr "Tastatursnarveier"
-
-#: data/menu.ui:41
-msgid "About Tangram"
-msgstr "Om"
-
-#: data/shortcuts.ui:17
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Generelt"
-
-#: data/shortcuts.ui:24
-msgctxt "shortcut window"
-msgid "Go to the next tab"
-msgstr "Gå til neste fane"
-
-#: data/shortcuts.ui:36
-msgctxt "shortcut window"
-msgid "Go to the previous tab"
-msgstr "Gå til forrige fane"
-
-#: data/shortcuts.ui:48
-msgctxt "shortcut window"
-msgid "Move current tab to the left"
-msgstr "Flytt nåværende fane til venstre"
-
-#: data/shortcuts.ui:60
-msgctxt "shortcut window"
-msgid "Move current tab to the right"
-msgstr "Flytt nåværende fane til høyre"
-
-#: data/shortcuts.ui:72
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Avslutt"
-
-#: data/shortcuts.ui:82
-msgctxt "shortcut window"
-msgid "Shortcuts"
-msgstr "Snarveier"
-
-#: data/shortcuts.ui:92
-msgctxt "shortcut window"
-msgid "Toggle inspector"
-msgstr "Høyre"
-
-#: data/shortcuts.ui:104
-msgctxt "shortcut window"
-msgid "First – Ninth Tab"
-msgstr "Første – niende fane"
-
-#: data/shortcuts.ui:116
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "Navigasjon"
-
-#: data/shortcuts.ui:123
-msgctxt "shortcut window"
-msgid "Go to homepage"
-msgstr "Gå til hjemmesiden"
-
-#: data/shortcuts.ui:133
-msgctxt "shortcut window"
-msgid "Reload current page"
-msgstr "Last inn nåværende side igjen"
-
-#: data/shortcuts.ui:143
-msgctxt "shortcut window"
-msgid "Reload bypassing cache"
-msgstr "Last inn utenom hurtiglager"
-
-#: data/shortcuts.ui:155
-msgctxt "shortcut window"
-msgid "Stop loading current page"
-msgstr "Stopp innlasting av nåværende side"
-
-#: data/shortcuts.ui:165 data/shortcuts.ui:198
-msgctxt "shortcut window"
-msgid "Go back to the previous page"
-msgstr "Gå tilbake til forrige side"
-
-#: data/shortcuts.ui:175 data/shortcuts.ui:210
-msgctxt "shortcut window"
-msgid "Go forward to the next page"
-msgstr "Gå forover til neste side"
-
-#: data/shortcuts.ui:185
-msgctxt "shortcut window"
-msgid "Focus the address bar"
-msgstr "Fokuser på adressefeltet"
-
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
 msgstr "Allan Nordhøy <epost@anotheragency.no>"
+
+#: src/instanceDialog.blp:46
+msgid "Normal"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "Low"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "High"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+#, fuzzy
+#| msgid "User agent"
+msgid "Urgent"
+msgstr "Brukeragent"
+
+#: src/shortcuts.blp:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generelt"
+
+#: src/shortcuts.blp:14
+msgctxt "shortcut window"
+msgid "Go to the next tab"
+msgstr "Gå til neste fane"
+
+#: src/shortcuts.blp:19
+msgctxt "shortcut window"
+msgid "Go to the previous tab"
+msgstr "Gå til forrige fane"
+
+#: src/shortcuts.blp:24
+msgctxt "shortcut window"
+msgid "Move current tab to the left"
+msgstr "Flytt nåværende fane til venstre"
+
+#: src/shortcuts.blp:29
+msgctxt "shortcut window"
+msgid "Move current tab to the right"
+msgstr "Flytt nåværende fane til høyre"
+
+#: src/shortcuts.blp:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avslutt"
+
+#: src/shortcuts.blp:39
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Snarveier"
+
+#: src/shortcuts.blp:44
+msgctxt "shortcut window"
+msgid "Toggle inspector"
+msgstr "Høyre"
+
+#: src/shortcuts.blp:49
+msgctxt "shortcut window"
+msgid "First – Ninth Tab"
+msgstr "Første – niende fane"
+
+#: src/shortcuts.blp:55
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigasjon"
+
+#: src/shortcuts.blp:58
+msgctxt "shortcut window"
+msgid "Go to homepage"
+msgstr "Gå til hjemmesiden"
+
+#: src/shortcuts.blp:63
+msgctxt "shortcut window"
+msgid "Reload current page"
+msgstr "Last inn nåværende side igjen"
+
+#: src/shortcuts.blp:68
+msgctxt "shortcut window"
+msgid "Reload bypassing cache"
+msgstr "Last inn utenom hurtiglager"
+
+#: src/shortcuts.blp:73
+msgctxt "shortcut window"
+msgid "Stop loading current page"
+msgstr "Stopp innlasting av nåværende side"
+
+#: src/shortcuts.blp:78 src/shortcuts.blp:94
+msgctxt "shortcut window"
+msgid "Go back to the previous page"
+msgstr "Gå tilbake til forrige side"
+
+#: src/shortcuts.blp:83 src/shortcuts.blp:99
+msgctxt "shortcut window"
+msgid "Go forward to the next page"
+msgstr "Gå forover til neste side"
+
+#: src/shortcuts.blp:88
+msgctxt "shortcut window"
+msgid "Focus the address bar"
+msgstr "Fokuser på adressefeltet"
+
+#: src/menu.blp:13
+msgid "Top"
+msgstr "Topp"
+
+#: src/menu.blp:19
+msgid "Left"
+msgstr "Venstre"
+
+#: src/menu.blp:25
+msgid "Right"
+msgstr "Høyre"
+
+#: src/menu.blp:31
+msgid "Bottom"
+msgstr "Bunn"
+
+#: src/menu.blp:40
+msgid "Keyboard Shortcuts"
+msgstr "Tastatursnarveier"
+
+#: src/menu.blp:45
+msgid "About Tangram"
+msgstr "Om"

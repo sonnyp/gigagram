@@ -8,36 +8,36 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: 2022-06-12 06:14+0000\n"
-"Last-Translator: Blboun3 <cyrda518@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/tangram/tangram/cs/>\n"
-"Language: cs\n"
+"PO-Revision-Date: 2023-03-27 14:40+0000\n"
+"Last-Translator: Sahli Gajjar <sahilgajjar504@gmail.com>\n"
+"Language-Team: Gujarati <https://hosted.weblate.org/projects/tangram/tangram/gu/>\n"
+"Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
-msgstr "Tangram"
+msgstr "ટેન્ગ્રામ"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:6
 msgid "Sonny Piers"
-msgstr "Sonny Piers"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:10
 #: data/re.sonny.Tangram.desktop:4
 msgid "Browser for your pinned tabs"
-msgstr "Prohlížeč pro vaše připnuté záložky"
+msgstr "તમારા પિન કરેલ ટેબ માટેનુ બ્રાઉઝર"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:13
 msgid "Tangram is a new kind of browser. It is designed to organize and run your Web applications. Each tab is persistent and independent. You can set multiple tabs with different accounts for the same application."
-msgstr ""
+msgstr "ટેન્ગ્રામ એ એક નવા પ્રકારનું બ્રાઉઝર છે. તે તમારી વેબ એપ્લિકેશન્સ ને ગોઠવવા અને વાપરવા માટે રચાયેલ છે. દરેક ટેબ સતત અને સ્વતંત્ર છે. તમે એક જ એપ્લિકેશન માટે વિવિધ એકાઉન્ટ્સ સાથે અલગ-અલગ ટેબ સેટ કરી શકો છો."
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:17
 msgid "Common use cases:"
-msgstr "Příklady použití:"
+msgstr "સામાન્ય ઉપયોગના કિસ્સાઓ:"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:20
 msgid "Stay up to date with your favorite communities; Mastodon, Twitter, ..."
@@ -73,11 +73,11 @@ msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
-msgstr "Nastavení priority oznámení pro každou záložku"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
-msgstr "Opraveno: Přihlášení na mnoha populárních stránkách"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"

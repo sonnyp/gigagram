@@ -8,148 +8,148 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: 2024-03-02 16:29+0000\n"
-"Last-Translator: VirtualLusamine <beatrizloveuwu@gmail.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/tangram/tangram/pt/>\n"
-"Language: pt\n"
+"PO-Revision-Date: 2024-07-07 04:09+0000\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/tangram/tangram/hi/>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
-msgstr "Tangram"
+msgstr "टेनग्राम"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:6
 msgid "Sonny Piers"
-msgstr "Sonny Piers"
+msgstr "सन्नी पियर्स"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:10
 #: data/re.sonny.Tangram.desktop:4
 msgid "Browser for your pinned tabs"
-msgstr "Navegador para os seus separadores afixados"
+msgstr "आपके पिन किए गए टैब के लिए ब्राउज़र"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:13
 msgid "Tangram is a new kind of browser. It is designed to organize and run your Web applications. Each tab is persistent and independent. You can set multiple tabs with different accounts for the same application."
-msgstr "O Tangram é um novo tipo de navegador, desenhado para organizar e executar as suas aplicações Web. Cada separador é persistente e independente. Pode criar vários separadores com contas diferentes para a mesma aplicação."
+msgstr "टेनग्राम एक नए तरह का ब्राउज़र है। इसे आपके वेब एप्लिकेशन को व्यवस्थित और चलाने के लिए डिज़ाइन किया गया है। प्रत्येक टैब सतत और स्वतंत्र है। आप एक ही एप्लिकेशन के लिए विभिन्न खातों के साथ एकाधिक टैब निर्धारित कर सकते हैं।"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:17
 msgid "Common use cases:"
-msgstr "Usos comuns:"
+msgstr "सामान्य उपयोग के मामले:"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:20
 msgid "Stay up to date with your favorite communities; Mastodon, Twitter, ..."
-msgstr "Ficar atualizado com as suas comunidades favoritas: Mastodon, Twitter, ..."
+msgstr "अपने पसंदीदा समुदायों के साथ अपडेट रहें; Mastodon, Twitter, …"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:22
 msgid "Merge all these chat applications into one; WhatsApp, Messenger, Telegram, ..."
-msgstr "Juntar todas estas aplicações de chat em uma: WhatsApp, Messenger, Telegram, ..."
+msgstr "इन सभी चैट एप्लिकेशन को एक में मर्ज करें; WhatsApp, Messenger, Telegram, …"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:24
 msgid "Group your organization tools under one application; EMail, Calendar, ..."
-msgstr "Agrupar as suas ferramentas de organização em uma aplicação: Email, Calendário, ..."
+msgstr "अपने संगठन के टूल को एक एप्लिकेशन के अंतर्गत समूहित करें; ईमेल, कैलेंडर, …"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:25
 msgid "One-stop for multiple sources of documentation or information"
-msgstr "Um único local para acessar múltiplas fontes de documentação ou informação"
+msgstr "दस्तावेज़ीकरण या सूचना के अनेक स्रोतों के लिए वन-स्टॉप"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:43
 msgid "Fix a bug preventing to start Tangram"
-msgstr "Conserta um bug que impedia o Tangram de iniciar"
+msgstr "टेनग्राम को प्रारंभ करने से रोकने वाले बग को ठीक किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:44
 msgid "Reduce the noisiness of logs"
-msgstr "Reduz a quantidade de dados irrelevantes nos logs"
+msgstr "लॉग के शोर को कम करता है"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:52
 msgid "Fix a bug preventing to add new tabs"
-msgstr "Conserta um bug que impedia a inclusão de novas abas"
+msgstr "नए टैब जोड़ने से रोकने वाले बग को ठीक किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
-msgstr "A prioridade das notificações é normal, e não urgente por padrão"
+msgstr "अधिसूचना प्राथमिकता तयशुदा रूप से अत्यावश्यक के बजाय सामान्य है"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
-msgstr "Adicionar uma definição específica a cada separador para alterar a prioridade das notificações"
+msgstr "अधिसूचना प्राथमिकता बदलने के लिए प्रति-टैब सेटिंग जोड़ा गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
-msgstr "Reparar autenticação em vários websites populares"
+msgstr "कई लोकप्रिय वेबसाइटों पर प्रमाणीकरण की समस्या ठीक की गई"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
-msgstr "Reparar botão Cancelar no diálogo das definições do separador"
+msgstr "टैब सेटिंग संवाद में रद्द करें बटन को ठीक किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
-msgstr "Usar botão do meio do rato ou Ctrl+Clique para abrir links no navegador"
+msgstr "ब्राउज़र में लिंक खोलने के लिए मिडिल-क्लिक या Ctrl+क्लिक का उपयोग करें"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
-msgstr "Reparar título da janela"
+msgstr "विंडो शीर्षक ठीक किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
-msgstr "Atualizar Runtime GNOME para 41"
+msgstr "गनोम रनटाइम को 41 तक अपडेट किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
-msgstr "Reparar um erro que não permitia que sites como Twitter ou Facebook fossem adicionados."
+msgstr "Twitter या Facebook जैसी कुछ साइटों को जोड़ने से रोकने वाली समस्या को ठीक किया गया।"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
-msgstr "Atualizar Runtime GNOME para 3.38"
+msgstr "गनोम रनटाइम को 3.38 में अपडेट किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
-msgstr "Ativar verificação ortográfica"
+msgstr "वर्तनी जांच सक्षम की गई"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
-msgstr "Agente de utilizador personalizável por instância"
+msgstr "प्रति उदाहरण अनुकूलन योग्य उपयोक्ता-एजेंट"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
-msgstr "Novo logo/ícone do projeto"
+msgstr "नया प्रोजेक्ट आइकन/लोगो"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
-msgstr "A nova cor de fundo dos separadores respeita o modo escuro"
+msgstr "नए टैब का पृष्ठभूमि रंग डार्क मोड का सम्मान करता है"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
-msgstr "Adicionar suporte a transferência de ficheiros"
+msgstr "फ़ाइलें डाउनलोड करने के लिए समर्थन जोड़ा गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
-msgstr "Adicionar botão \"Página Inicial\""
+msgstr "होम बटन जोड़ा गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
-msgstr "Melhor integração com a área de trabalho"
+msgstr "बेहतर डेस्कटॉप एकीकरण"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
-msgstr "Reparar o erro em que a janela principal ficava pequena ao desmaximizar"
+msgstr "अनमैक्सिमाइज़ करते समय मुख्य विंडो छोटी हो जाने की समस्या को ठीक किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
-msgstr "Ativar gestos de navegação por deslize do ecrá tátil/touchpad"
+msgstr "टचपैड/टचस्क्रीन स्वाइप नेविगेशन जेस्चर सक्षम किया गया"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
-msgstr "Melhor gestão de notificações"
+msgstr "बेहतर सूचना प्रबंधन"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
-msgstr "Melhorada compatibilidade web e desempenho"
+msgstr "बेहतर वेब संगतता और प्रदर्शन"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
-msgstr "Agora o Tangram funciona corretamente no Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
+msgstr "टेनग्राम अब फ्लैटपैक 1.0 (Linux Mint, Ubuntu 18.04, ...) पर ठीक से काम करता है"
 
 #: data/re.sonny.Tangram.desktop:13
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
@@ -157,51 +157,51 @@ msgstr "Franz;Ferdi;Rambox;Wavebox;Station;"
 
 #: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
-msgstr "Posição dos separadores"
+msgstr "टैब्स स्थिति"
 
 #: data/re.sonny.Tangram.gschema.xml:23
 msgid "Sets the position of the tabs"
-msgstr "Define a posição dos separadores"
+msgstr "टैब की स्थिति निर्धारित करता है"
 
 #: data/re.sonny.Tangram.gschema.xml:28
 msgid "Window width"
-msgstr "Largura da janela"
+msgstr "विंडो चौड़ाई"
 
 #: data/re.sonny.Tangram.gschema.xml:29
 msgid "Width of the window"
-msgstr "Largura da janela"
+msgstr "विंडो की चौड़ाई"
 
 #: data/re.sonny.Tangram.gschema.xml:34
 msgid "Window height"
-msgstr "Altura da janela"
+msgstr "विंडो ऊंचाई"
 
 #: data/re.sonny.Tangram.gschema.xml:35
 msgid "Height of the window"
-msgstr "Altura da janela"
+msgstr "विंडो की ऊंचाई"
 
 #: data/re.sonny.Tangram.gschema.xml:40
 msgid "Window maximized"
-msgstr "Janela maximizada"
+msgstr "विंडो अधिकतमीकृत"
 
 #: data/re.sonny.Tangram.gschema.xml:41
 msgid "Whether the window is maximized"
-msgstr "Caso a janela está maximizada"
+msgstr "क्या विंडो अधिकतम है"
 
 #: data/re.sonny.Tangram.gschema.xml:46
 msgid "Instances"
-msgstr "Instâncias"
+msgstr "इंस्टैंस"
 
 #: data/re.sonny.Tangram.gschema.xml:48
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
-msgstr "Identificadores das instâncias podem ser encontrados em /re/sonny/Tangram/instances/"
+msgstr "/re/sonny/Tangram/instances/ में पाए जाने वाले इंस्टैंस के पहचानकर्ता"
 
 #: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
-msgstr "Nome"
+msgstr "नाम"
 
 #: data/re.sonny.Tangram.gschema.xml:56
 msgid "Name to display"
-msgstr "Nome a mostrar"
+msgstr "प्रदर्शित करने के लिए नाम"
 
 #: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
@@ -209,150 +209,150 @@ msgstr "URL"
 
 #: data/re.sonny.Tangram.gschema.xml:61
 msgid "Start URL"
-msgstr "URL inicial"
+msgstr "URL प्रारंभ करें"
 
 #: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
-msgstr "Agente de utilizador"
+msgstr "उपयोक्ता एजेंट"
 
 #: data/re.sonny.Tangram.gschema.xml:67
 msgid "String that will be used as user agent, to identify the browser to the web servers."
-msgstr "Texto que será usado como agente de utilizador, para identificar o navegador a servidores web."
+msgstr "वेब सर्वर पर ब्राउज़र की पहचान करने के लिए स्ट्रिंग का उपयोग उपयोक्ता एजेंट के रूप में किया जाएगा।"
 
 #: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
-msgstr "Prioridade das notificações"
+msgstr "सूचनाएं प्राथमिकता"
 
 #: data/re.sonny.Tangram.gschema.xml:75
 msgid "Sets the priority of notifications"
-msgstr "Define a prioridade das notificações"
+msgstr "सूचनाओं की प्राथमिकता निर्धारित करता है"
 
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
-msgstr "Xico Maia https://xico26.github.io/"
+msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
 #: src/instanceDialog.blp:46
 msgid "Normal"
-msgstr "Normal"
+msgstr "सामान्य"
 
 #: src/instanceDialog.blp:46
 msgid "Low"
-msgstr "Baixo"
+msgstr "निचे"
 
 #: src/instanceDialog.blp:46
 msgid "High"
-msgstr "Alto"
+msgstr "ऊपर"
 
 #: src/instanceDialog.blp:46
 msgid "Urgent"
-msgstr "Urgente"
+msgstr "अत्यावश्यक"
 
 #: src/shortcuts.blp:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Geral"
+msgstr "सामान्य"
 
 #: src/shortcuts.blp:14
 msgctxt "shortcut window"
 msgid "Go to the next tab"
-msgstr "Ir para o separador seguinte"
+msgstr "अगले टैब पर जाएं"
 
 #: src/shortcuts.blp:19
 msgctxt "shortcut window"
 msgid "Go to the previous tab"
-msgstr "Ir para o separador anterior"
+msgstr "पिछले टैब पर जाएं"
 
 #: src/shortcuts.blp:24
 msgctxt "shortcut window"
 msgid "Move current tab to the left"
-msgstr "Mover o separador atual para a esquerda"
+msgstr "वर्तमान टैब को बाएं ले जाएं"
 
 #: src/shortcuts.blp:29
 msgctxt "shortcut window"
 msgid "Move current tab to the right"
-msgstr "Mover o separador atual para a direita"
+msgstr "वर्तमान टैब को दाएं ले जाएं"
 
 #: src/shortcuts.blp:34
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Sair"
+msgstr "छोड़ें"
 
 #: src/shortcuts.blp:39
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr "Atalhos"
+msgstr "शॉर्टकट"
 
 #: src/shortcuts.blp:44
 msgctxt "shortcut window"
 msgid "Toggle inspector"
-msgstr "Ativar o inspetor"
+msgstr "निरीक्षक टॉगल करें"
 
 #: src/shortcuts.blp:49
 msgctxt "shortcut window"
 msgid "First – Ninth Tab"
-msgstr "Primeiro - Nono Separador"
+msgstr "पहला – नौवां टैब"
 
 #: src/shortcuts.blp:55
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Navegação"
+msgstr "नेविगेशन"
 
 #: src/shortcuts.blp:58
 msgctxt "shortcut window"
 msgid "Go to homepage"
-msgstr "Ir para a página inicial"
+msgstr "मुखपृष्ठ पर जाएं"
 
 #: src/shortcuts.blp:63
 msgctxt "shortcut window"
 msgid "Reload current page"
-msgstr "Recarregar a página atual"
+msgstr "वर्तमान पृष्ठ पुनः लोड करें"
 
 #: src/shortcuts.blp:68
 msgctxt "shortcut window"
 msgid "Reload bypassing cache"
-msgstr "Recarregar ignorando a cache"
+msgstr "कैशे को बायपास करके पुनः लोड करें"
 
 #: src/shortcuts.blp:73
 msgctxt "shortcut window"
 msgid "Stop loading current page"
-msgstr "Parar de carregar a página atual"
+msgstr "वर्तमान पृष्ठ लोड करना बंद करें"
 
 #: src/shortcuts.blp:78 src/shortcuts.blp:94
 msgctxt "shortcut window"
 msgid "Go back to the previous page"
-msgstr "Voltar à página anterior"
+msgstr "पिछले पृष्ठ पर वापस जाएं"
 
 #: src/shortcuts.blp:83 src/shortcuts.blp:99
 msgctxt "shortcut window"
 msgid "Go forward to the next page"
-msgstr "Avançar para a página seguinte"
+msgstr "अगले पृष्ठ पर आगे बढ़ें"
 
 #: src/shortcuts.blp:88
 msgctxt "shortcut window"
 msgid "Focus the address bar"
-msgstr "Focar a barra de endereços"
+msgstr "पता बार पर फोकस करें"
 
 #: src/menu.blp:13
 msgid "Top"
-msgstr "Topo"
+msgstr "ऊपर"
 
 #: src/menu.blp:19
 msgid "Left"
-msgstr "Esquerda"
+msgstr "बाएं"
 
 #: src/menu.blp:25
 msgid "Right"
-msgstr "Direita"
+msgstr "दाएं"
 
 #: src/menu.blp:31
 msgid "Bottom"
-msgstr "Fundo"
+msgstr "नीचे"
 
 #: src/menu.blp:40
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos de teclado"
+msgstr "कीबोर्ड शॉर्टकट"
 
 #: src/menu.blp:45
 msgid "About Tangram"
-msgstr "Sobre o Tangram"
+msgstr "टेनग्राम के बारे में"

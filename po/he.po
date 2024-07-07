@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 00:55+0100\n"
-"PO-Revision-Date: 2022-06-01 08:16+0000\n"
+"POT-Creation-Date: 2022-09-18 16:27+0200\n"
+"PO-Revision-Date: 2023-01-16 14:47+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/tangram/tangram/he/>\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
@@ -55,87 +55,99 @@ msgstr "קיבוץ כל כלי העבודה שלך ליישום אחד: דוא״
 msgid "One-stop for multiple sources of documentation or information"
 msgstr "נקודת המוקד למגוון מקורות לתיעוד או מידע"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:42
+#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+msgid "Fix a bug preventing to start Tangram"
+msgstr "תוקנה תקלה שמנעה את הפעלת Tangram"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+msgid "Reduce the noisiness of logs"
+msgstr "הופחת הרעש ביומנים"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:52
+msgid "Fix a bug preventing to add new tabs"
+msgstr "תוקנה תקלה שמנעה הוספת לשוניות חדשות"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
 msgstr "עדיפות ההתראות היא רגילה במקום דחופה כברירת מחדל"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+#: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
 msgstr "ניתן להוסיף הגדרות לכל לשונית בנפרד כדי לשנות את עדיפות ההתראות"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+#: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
 msgstr "תוקן האימות במגוון אתרים נפוצים"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:45
+#: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
 msgstr "תוקן כפתור הביטול בחלונית הגדרות הלשונית"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:46
+#: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
 msgstr "ניתן להשתמש ב־Ctrl+לחיצה כדי לפתוח קישורים בדפדפן"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:54
+#: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
 msgstr "כותרת החלון תוקנה"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:55
+#: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
 msgstr "סביבת הריצה של GNOME עודכנה ל־41"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:64
+#: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
 msgstr "תוקנה תקלה שמנעה הוספת אתרים כמו טוויטר או פייסבוק."
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:65
+#: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
 msgstr "סביבת הריצה של GNOME עודכנה ל־3.38"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:73
+#: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
 msgstr "הפעלת בדיקת איות"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:74
+#: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
 msgstr "הגדרה אישית של סוכן משתמש לכל מופע"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:75
+#: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
 msgstr "סמל/לוגו חדש למיזם"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:76
+#: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
 msgstr "צבע רקע לשונית חדשה מכבד מצב לילה"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:84
+#: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
 msgstr "נוספה תמיכה להורדת קבצים"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:85
+#: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
 msgstr "נוסף כפתור בית"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:86
+#: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
 msgstr "שילוב משופר מול שולחן העבודה"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:87
+#: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
 msgstr "תיקון בעיה שהחלון הראשי מצטמק בעת ביטול הגדלה"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:88
+#: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
 msgstr "הפעלת מחוות ניווט בהחלקה במשטח/מסך מגע"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:96
+#: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
 msgstr "טיפול משופר בהתראות"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:97
+#: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
 msgstr "תאימות לדפדפנים וביצועים השתפרו"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:99
+#: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 msgstr "Tangram עובד מעתה כראוי על Flatpak 1.0‏ (Linux Mint, אובונטו 18.04…)"
 
@@ -143,7 +155,7 @@ msgstr "Tangram עובד מעתה כראוי על Flatpak 1.0‏ (Linux Mint, א
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
 msgstr "Franz;Ferdi;Rambox;Wavebox;Station;שיחה;התכתבות;שילוב;"
 
-#: data/re.sonny.Tangram.gschema.xml:22 data/menu.ui:8
+#: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
 msgstr "מיקום לשוניות"
 
@@ -172,7 +184,7 @@ msgid "Window maximized"
 msgstr "חלון מוגדל"
 
 #: data/re.sonny.Tangram.gschema.xml:41
-msgid "Weither the window is maximized"
+msgid "Whether the window is maximized"
 msgstr "האם החלון מוגדל"
 
 #: data/re.sonny.Tangram.gschema.xml:46
@@ -183,7 +195,7 @@ msgstr "מופעים"
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
 msgstr "מזהי המופעים נמצאים ב־/re/sonny/Tangram/instances/"
 
-#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.ui:29
+#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
 msgstr "שם"
 
@@ -191,7 +203,7 @@ msgstr "שם"
 msgid "Name to display"
 msgstr "שם להצגה"
 
-#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.ui:43
+#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
 msgstr "כתובת"
 
@@ -199,7 +211,7 @@ msgstr "כתובת"
 msgid "Start URL"
 msgstr "כתובת פתיחה"
 
-#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.ui:79
+#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
 msgstr "סוכן משתמש"
 
@@ -207,7 +219,7 @@ msgstr "סוכן משתמש"
 msgid "String that will be used as user agent, to identify the browser to the web servers."
 msgstr "מחרוזת שתשמש כסוכן משתמש כדי לזהות את הדפדפן מול שרתים."
 
-#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.ui:59
+#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
 msgstr "עדיפות התראות"
 
@@ -215,116 +227,132 @@ msgstr "עדיפות התראות"
 msgid "Sets the priority of notifications"
 msgstr "מגדיר את עדיפות ההתראות"
 
-#: data/menu.ui:11
-msgid "Top"
-msgstr "עליון"
-
-#: data/menu.ui:16
-msgid "Left"
-msgstr "שמאל"
-
-#: data/menu.ui:21
-msgid "Right"
-msgstr "ימין"
-
-#: data/menu.ui:26
-msgid "Bottom"
-msgstr "תחתון"
-
-#: data/menu.ui:37
-msgid "Keyboard Shortcuts"
-msgstr "קיצורי מקלדת"
-
-#: data/menu.ui:41
-msgid "About Tangram"
-msgstr "על Tanagram"
-
-#: data/shortcuts.ui:17
-msgctxt "shortcut window"
-msgid "General"
-msgstr "כללי"
-
-#: data/shortcuts.ui:24
-msgctxt "shortcut window"
-msgid "Go to the next tab"
-msgstr "מעבר ללשונית הבאה"
-
-#: data/shortcuts.ui:36
-msgctxt "shortcut window"
-msgid "Go to the previous tab"
-msgstr "מעבר ללשונית הקודמת"
-
-#: data/shortcuts.ui:48
-msgctxt "shortcut window"
-msgid "Move current tab to the left"
-msgstr "העברת הלשונית הנוכחית שמאלה"
-
-#: data/shortcuts.ui:60
-msgctxt "shortcut window"
-msgid "Move current tab to the right"
-msgstr "העברת הלשונית הנוכחית ימינה"
-
-#: data/shortcuts.ui:72
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "יציאה"
-
-#: data/shortcuts.ui:82
-msgctxt "shortcut window"
-msgid "Shortcuts"
-msgstr "קיצורי מקשים"
-
-#: data/shortcuts.ui:92
-msgctxt "shortcut window"
-msgid "Toggle inspector"
-msgstr "הצגת/הסתרת חוקר"
-
-#: data/shortcuts.ui:104
-msgctxt "shortcut window"
-msgid "First – Ninth Tab"
-msgstr "לשונית ראשונה - תשיעית"
-
-#: data/shortcuts.ui:116
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "ניווט"
-
-#: data/shortcuts.ui:123
-msgctxt "shortcut window"
-msgid "Go to homepage"
-msgstr "מעבר לעמוד הבית"
-
-#: data/shortcuts.ui:133
-msgctxt "shortcut window"
-msgid "Reload current page"
-msgstr "רענון העמוד הנוכחי"
-
-#: data/shortcuts.ui:143
-msgctxt "shortcut window"
-msgid "Reload bypassing cache"
-msgstr "רענון בלי מטמון"
-
-#: data/shortcuts.ui:155
-msgctxt "shortcut window"
-msgid "Stop loading current page"
-msgstr "עצירת טעינת העמוד הנוכחי"
-
-#: data/shortcuts.ui:165 data/shortcuts.ui:198
-msgctxt "shortcut window"
-msgid "Go back to the previous page"
-msgstr "חזרה לעמוד הקודם"
-
-#: data/shortcuts.ui:175 data/shortcuts.ui:210
-msgctxt "shortcut window"
-msgid "Go forward to the next page"
-msgstr "התקדמות לעמוד הבא"
-
-#: data/shortcuts.ui:185
-msgctxt "shortcut window"
-msgid "Focus the address bar"
-msgstr "התמקדות על סרגל הכתובת"
-
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
 msgstr "ירון שהרבני <sh.yaron@gmail.com>"
+
+#: src/instanceDialog.blp:46
+msgid "Normal"
+msgstr "רגילה"
+
+#: src/instanceDialog.blp:46
+msgid "Low"
+msgstr "נמוכה"
+
+#: src/instanceDialog.blp:46
+msgid "High"
+msgstr "גבוהה"
+
+#: src/instanceDialog.blp:46
+msgid "Urgent"
+msgstr "דחופה"
+
+#: src/shortcuts.blp:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "כללי"
+
+#: src/shortcuts.blp:14
+msgctxt "shortcut window"
+msgid "Go to the next tab"
+msgstr "מעבר ללשונית הבאה"
+
+#: src/shortcuts.blp:19
+msgctxt "shortcut window"
+msgid "Go to the previous tab"
+msgstr "מעבר ללשונית הקודמת"
+
+#: src/shortcuts.blp:24
+msgctxt "shortcut window"
+msgid "Move current tab to the left"
+msgstr "העברת הלשונית הנוכחית שמאלה"
+
+#: src/shortcuts.blp:29
+msgctxt "shortcut window"
+msgid "Move current tab to the right"
+msgstr "העברת הלשונית הנוכחית ימינה"
+
+#: src/shortcuts.blp:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "יציאה"
+
+#: src/shortcuts.blp:39
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "קיצורי מקשים"
+
+#: src/shortcuts.blp:44
+msgctxt "shortcut window"
+msgid "Toggle inspector"
+msgstr "הצגת/הסתרת חוקר"
+
+#: src/shortcuts.blp:49
+msgctxt "shortcut window"
+msgid "First – Ninth Tab"
+msgstr "לשונית ראשונה - תשיעית"
+
+#: src/shortcuts.blp:55
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "ניווט"
+
+#: src/shortcuts.blp:58
+msgctxt "shortcut window"
+msgid "Go to homepage"
+msgstr "מעבר לעמוד הבית"
+
+#: src/shortcuts.blp:63
+msgctxt "shortcut window"
+msgid "Reload current page"
+msgstr "רענון העמוד הנוכחי"
+
+#: src/shortcuts.blp:68
+msgctxt "shortcut window"
+msgid "Reload bypassing cache"
+msgstr "רענון בלי מטמון"
+
+#: src/shortcuts.blp:73
+msgctxt "shortcut window"
+msgid "Stop loading current page"
+msgstr "עצירת טעינת העמוד הנוכחי"
+
+#: src/shortcuts.blp:78 src/shortcuts.blp:94
+msgctxt "shortcut window"
+msgid "Go back to the previous page"
+msgstr "חזרה לעמוד הקודם"
+
+#: src/shortcuts.blp:83 src/shortcuts.blp:99
+msgctxt "shortcut window"
+msgid "Go forward to the next page"
+msgstr "התקדמות לעמוד הבא"
+
+#: src/shortcuts.blp:88
+msgctxt "shortcut window"
+msgid "Focus the address bar"
+msgstr "התמקדות על סרגל הכתובת"
+
+#: src/menu.blp:13
+msgid "Top"
+msgstr "עליון"
+
+#: src/menu.blp:19
+msgid "Left"
+msgstr "שמאל"
+
+#: src/menu.blp:25
+msgid "Right"
+msgstr "ימין"
+
+#: src/menu.blp:31
+msgid "Bottom"
+msgstr "תחתון"
+
+#: src/menu.blp:40
+msgid "Keyboard Shortcuts"
+msgstr "קיצורי מקלדת"
+
+#: src/menu.blp:45
+msgid "About Tangram"
+msgstr "על Tanagram"
