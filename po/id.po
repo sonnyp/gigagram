@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 00:55+0100\n"
-"PO-Revision-Date: 2022-02-26 11:58+0000\n"
-"Last-Translator: yanuz93 <yanuzpurnomo@gmail.com>\n"
+"POT-Creation-Date: 2022-09-18 16:27+0200\n"
+"PO-Revision-Date: 2024-03-18 02:01+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/tangram/tangram/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
@@ -45,97 +45,109 @@ msgstr "Dapatkan kabar terkini dari komunitas kesukaanmu; Mastodon, Twitter, ...
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:22
 msgid "Merge all these chat applications into one; WhatsApp, Messenger, Telegram, ..."
-msgstr ""
+msgstr "Gabungkan semua aplikasi chatting ini menjadi satu; WhatsApp, Messenger, Telegram, ..."
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:24
 msgid "Group your organization tools under one application; EMail, Calendar, ..."
-msgstr ""
+msgstr "Kelompokkan alat organisasi Anda dalam satu aplikasi; Email, Kalender, ..."
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:25
 msgid "One-stop for multiple sources of documentation or information"
-msgstr ""
-
-#: data/appdata/re.sonny.Tangram.metainfo.xml:42
-msgid "Notifications priority is normal instead of urgent by default"
-msgstr ""
+msgstr "Satu atap untuk berbagai sumber dokumentasi atau informasi"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:43
-msgid "Add a per-tab setting to change notifications priority"
-msgstr ""
+msgid "Fix a bug preventing to start Tangram"
+msgstr "Perbaikan bug yang mencegah untuk memulai Tangram"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:44
+msgid "Reduce the noisiness of logs"
+msgstr "Mengurangi suara bising logs"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:52
+msgid "Fix a bug preventing to add new tabs"
+msgstr "Perbaikan bug yang mencegah penambahan tab baru"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:60
+msgid "Notifications priority is normal instead of urgent by default"
+msgstr "Prioritas notifikasi adalah normal, bukan mendesak secara default"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:61
+msgid "Add a per-tab setting to change notifications priority"
+msgstr "Menambahkan pengaturan per tab untuk mengubah prioritas notifikasi"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
 msgstr "Memperbaiki otentikasi pada banyak situs web populer"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:45
+#: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
-msgstr ""
+msgstr "Perbaikan tombol Batal dalam dialog pengaturan tab"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:46
+#: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
-msgstr ""
+msgstr "Gunakan klik tengah atau Ctrl+klik untuk membuka tautan di browser"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:54
+#: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
 msgstr "Memperbaiki judul jendela"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:55
+#: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
 msgstr "Memperbarui runtime GNOME ke 41"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:64
+#: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
 msgstr "Memperbaiki masalah yang mencegah beberapa situs seperti Twitter atau Facebook ditambahkan."
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:65
+#: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
 msgstr "Memperbarui runtime GNOME ke 3.38"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:73
+#: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
 msgstr "Mengaktifkan pemeriksaan ejaan"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:74
+#: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
-msgstr ""
+msgstr "user-agent yang dapat disesuaikan per instance"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:75
+#: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
 msgstr "Ikon/logo baru untuk proyeknya"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:76
+#: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
 msgstr ""
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:84
+#: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
 msgstr "Menambahkan dukungan untuk mengunduh berkas"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:85
+#: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
 msgstr "Menambahkan tombol beranda"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:86
+#: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
 msgstr "Integrasi dengan desktop lebih baik"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:87
+#: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
 msgstr ""
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:88
+#: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
 msgstr ""
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:96
+#: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
 msgstr ""
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:97
+#: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
 msgstr "Meningkatkan kompatibilitas web dan performa"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:99
+#: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 msgstr "Tangram sekarang bekerja pada Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 
@@ -143,7 +155,7 @@ msgstr "Tangram sekarang bekerja pada Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
 msgstr ""
 
-#: data/re.sonny.Tangram.gschema.xml:22 data/menu.ui:8
+#: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
 msgstr "Posisi tab"
 
@@ -172,7 +184,7 @@ msgid "Window maximized"
 msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:41
-msgid "Weither the window is maximized"
+msgid "Whether the window is maximized"
 msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:46
@@ -183,7 +195,7 @@ msgstr ""
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
 msgstr ""
 
-#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.ui:29
+#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
 msgstr "Nama"
 
@@ -191,7 +203,7 @@ msgstr "Nama"
 msgid "Name to display"
 msgstr ""
 
-#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.ui:43
+#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
 msgstr "URL"
 
@@ -199,7 +211,7 @@ msgstr "URL"
 msgid "Start URL"
 msgstr "URL Awal"
 
-#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.ui:79
+#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
 msgstr ""
 
@@ -207,7 +219,7 @@ msgstr ""
 msgid "String that will be used as user agent, to identify the browser to the web servers."
 msgstr ""
 
-#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.ui:59
+#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
 msgstr "Prioritas notifikasi"
 
@@ -215,116 +227,132 @@ msgstr "Prioritas notifikasi"
 msgid "Sets the priority of notifications"
 msgstr ""
 
-#: data/menu.ui:11
-msgid "Top"
-msgstr "Atas"
-
-#: data/menu.ui:16
-msgid "Left"
-msgstr "Kiri"
-
-#: data/menu.ui:21
-msgid "Right"
-msgstr "Kanan"
-
-#: data/menu.ui:26
-msgid "Bottom"
-msgstr "Bawah"
-
-#: data/menu.ui:37
-msgid "Keyboard Shortcuts"
-msgstr "Pintasan Papan Ketik"
-
-#: data/menu.ui:41
-msgid "About Tangram"
-msgstr "Tentang Tangram"
-
-#: data/shortcuts.ui:17
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Umum"
-
-#: data/shortcuts.ui:24
-msgctxt "shortcut window"
-msgid "Go to the next tab"
-msgstr "Beralih ke tab selanjutnya"
-
-#: data/shortcuts.ui:36
-msgctxt "shortcut window"
-msgid "Go to the previous tab"
-msgstr "Beralih ke tab sebelumnya"
-
-#: data/shortcuts.ui:48
-msgctxt "shortcut window"
-msgid "Move current tab to the left"
-msgstr "Pindahkan tab ini ke kiri"
-
-#: data/shortcuts.ui:60
-msgctxt "shortcut window"
-msgid "Move current tab to the right"
-msgstr "Pindahkan tab ini ke kanan"
-
-#: data/shortcuts.ui:72
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Keluar"
-
-#: data/shortcuts.ui:82
-msgctxt "shortcut window"
-msgid "Shortcuts"
-msgstr "Pintasan"
-
-#: data/shortcuts.ui:92
-msgctxt "shortcut window"
-msgid "Toggle inspector"
-msgstr ""
-
-#: data/shortcuts.ui:104
-msgctxt "shortcut window"
-msgid "First – Ninth Tab"
-msgstr "Tab Pertama – Tab Ke-Sembilan"
-
-#: data/shortcuts.ui:116
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "Navigasi"
-
-#: data/shortcuts.ui:123
-msgctxt "shortcut window"
-msgid "Go to homepage"
-msgstr ""
-
-#: data/shortcuts.ui:133
-msgctxt "shortcut window"
-msgid "Reload current page"
-msgstr "Muat ulang halaman"
-
-#: data/shortcuts.ui:143
-msgctxt "shortcut window"
-msgid "Reload bypassing cache"
-msgstr ""
-
-#: data/shortcuts.ui:155
-msgctxt "shortcut window"
-msgid "Stop loading current page"
-msgstr "Berhenti memuat halaman"
-
-#: data/shortcuts.ui:165 data/shortcuts.ui:198
-msgctxt "shortcut window"
-msgid "Go back to the previous page"
-msgstr "Kembali ke halaman sebelumnya"
-
-#: data/shortcuts.ui:175 data/shortcuts.ui:210
-msgctxt "shortcut window"
-msgid "Go forward to the next page"
-msgstr "Beralih ke halaman berikutnya"
-
-#: data/shortcuts.ui:185
-msgctxt "shortcut window"
-msgid "Focus the address bar"
-msgstr ""
-
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
 msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "Normal"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "Low"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "High"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "Urgent"
+msgstr ""
+
+#: src/shortcuts.blp:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Umum"
+
+#: src/shortcuts.blp:14
+msgctxt "shortcut window"
+msgid "Go to the next tab"
+msgstr "Beralih ke tab selanjutnya"
+
+#: src/shortcuts.blp:19
+msgctxt "shortcut window"
+msgid "Go to the previous tab"
+msgstr "Beralih ke tab sebelumnya"
+
+#: src/shortcuts.blp:24
+msgctxt "shortcut window"
+msgid "Move current tab to the left"
+msgstr "Pindahkan tab ini ke kiri"
+
+#: src/shortcuts.blp:29
+msgctxt "shortcut window"
+msgid "Move current tab to the right"
+msgstr "Pindahkan tab ini ke kanan"
+
+#: src/shortcuts.blp:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Keluar"
+
+#: src/shortcuts.blp:39
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Pintasan"
+
+#: src/shortcuts.blp:44
+msgctxt "shortcut window"
+msgid "Toggle inspector"
+msgstr ""
+
+#: src/shortcuts.blp:49
+msgctxt "shortcut window"
+msgid "First – Ninth Tab"
+msgstr "Tab Pertama – Tab Ke-Sembilan"
+
+#: src/shortcuts.blp:55
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigasi"
+
+#: src/shortcuts.blp:58
+msgctxt "shortcut window"
+msgid "Go to homepage"
+msgstr ""
+
+#: src/shortcuts.blp:63
+msgctxt "shortcut window"
+msgid "Reload current page"
+msgstr "Muat ulang halaman"
+
+#: src/shortcuts.blp:68
+msgctxt "shortcut window"
+msgid "Reload bypassing cache"
+msgstr ""
+
+#: src/shortcuts.blp:73
+msgctxt "shortcut window"
+msgid "Stop loading current page"
+msgstr "Berhenti memuat halaman"
+
+#: src/shortcuts.blp:78 src/shortcuts.blp:94
+msgctxt "shortcut window"
+msgid "Go back to the previous page"
+msgstr "Kembali ke halaman sebelumnya"
+
+#: src/shortcuts.blp:83 src/shortcuts.blp:99
+msgctxt "shortcut window"
+msgid "Go forward to the next page"
+msgstr "Beralih ke halaman berikutnya"
+
+#: src/shortcuts.blp:88
+msgctxt "shortcut window"
+msgid "Focus the address bar"
+msgstr ""
+
+#: src/menu.blp:13
+msgid "Top"
+msgstr "Atas"
+
+#: src/menu.blp:19
+msgid "Left"
+msgstr "Kiri"
+
+#: src/menu.blp:25
+msgid "Right"
+msgstr "Kanan"
+
+#: src/menu.blp:31
+msgid "Bottom"
+msgstr "Bawah"
+
+#: src/menu.blp:40
+msgid "Keyboard Shortcuts"
+msgstr "Pintasan Papan Ketik"
+
+#: src/menu.blp:45
+msgid "About Tangram"
+msgstr "Tentang Tangram"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 00:55+0100\n"
+"POT-Creation-Date: 2022-09-18 16:27+0200\n"
 "PO-Revision-Date: 2022-01-09 20:54+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/tangram/tangram/eu/>\n"
@@ -55,87 +55,99 @@ msgstr "Bere antolaketa-tresnak aplikazio bakar batean biltzen ditu: posta elekt
 msgid "One-stop for multiple sources of documentation or information"
 msgstr "Geldialdi bakarra dokumentazio edo informazio-iturri anitzentzat"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:42
+#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+msgid "Fix a bug preventing to start Tangram"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+msgid "Reduce the noisiness of logs"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:52
+msgid "Fix a bug preventing to add new tabs"
+msgstr ""
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
 msgstr "Jakinarazpenen lehentasuna normala da, urgentziaz egin beharrean"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+#: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
 msgstr "Gehitu erlaitz bakoitzeko konfigurazio bat, jakinarazpenen lehentasuna aldatzeko"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+#: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
 msgstr "Autentifikazioa zuzendu da herri-webgune askotan"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:45
+#: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
 msgstr "Erlaitzen konfigurazio-elkarrizketan ezeztatzeko botoia zuzendu da"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:46
+#: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
 msgstr "Saguaren erdiko botoia edo Ctrl+klik erabili estekak nabigatzailean irekitzeko"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:54
+#: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
 msgstr "Leihoaren izenburua zuzentzea"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:55
+#: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
 msgstr "GNOMEren gauzatze-ingurunea eguneratzea, 41era"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:64
+#: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
 msgstr "Twitter edo Facebook bezalako gune batzuk gehitzea eragozten zuen arazo bat zuzentzea."
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:65
+#: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
 msgstr "GNOMEren egikaritze-ingurunea 3.38 bertsiora eguneratzea"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:73
+#: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
 msgstr "Zuzenketa ortografikoa aktibatuta"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:74
+#: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
 msgstr "Erabiltzaile-agente pertsonalizagarria, instantziaren arabera"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:75
+#: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
 msgstr "Proiektu berriaren ikonoa/logotipoa"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:76
+#: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
 msgstr "Erlaitz berriaren hondoko koloreak modu iluna errespetatzen du"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:84
+#: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
 msgstr "Fitxategiak deskargatzeko euskarria erantsi da"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:85
+#: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
 msgstr "Gehitu hasierako botoia"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:86
+#: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
 msgstr "Mahaiarekiko integrazioa hobetu da"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:87
+#: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
 msgstr "Leihoa leheneratzean txikitzen den leiho nagusia zuzentzea"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:88
+#: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
 msgstr "Nabigazio-keinuak aktibatu dira ukipen-panelerako/ukipen-pantailarako"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:96
+#: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
 msgstr "Jakinarazpenen kudeaketa hobetu da"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:97
+#: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
 msgstr "Webgunearen bateragarritasuna eta errendimendua hobetu dira"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:99
+#: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 msgstr "Tangram, orain, ondo dabil Flatpak 1.0 formatuan (Linux Mint, Ubuntu 18.04, …)"
 
@@ -143,7 +155,7 @@ msgstr "Tangram, orain, ondo dabil Flatpak 1.0 formatuan (Linux Mint, Ubuntu 18.
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
 msgstr "Franz;Ferdi;Rambox;Wavebox;Station;"
 
-#: data/re.sonny.Tangram.gschema.xml:22 data/menu.ui:8
+#: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
 msgstr "Erlaitzen posizioa"
 
@@ -172,7 +184,9 @@ msgid "Window maximized"
 msgstr "Leiho maximizatua"
 
 #: data/re.sonny.Tangram.gschema.xml:41
-msgid "Weither the window is maximized"
+#, fuzzy
+#| msgid "Weither the window is maximized"
+msgid "Whether the window is maximized"
 msgstr "Leihoa maximizatuta badago"
 
 #: data/re.sonny.Tangram.gschema.xml:46
@@ -183,7 +197,7 @@ msgstr "Instantziak"
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
 msgstr "Instantzien identifikatzaileak hemen aurki dezakete: /re/sonny/Tangram/instances/"
 
-#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.ui:29
+#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
 msgstr "Izena"
 
@@ -191,7 +205,7 @@ msgstr "Izena"
 msgid "Name to display"
 msgstr "Erakutsi beharreko izena"
 
-#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.ui:43
+#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
 msgstr "URL"
 
@@ -199,7 +213,7 @@ msgstr "URL"
 msgid "Start URL"
 msgstr "Hasierako URLa"
 
-#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.ui:79
+#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
 msgstr "Erabiltzaile-agentea"
 
@@ -207,7 +221,7 @@ msgstr "Erabiltzaile-agentea"
 msgid "String that will be used as user agent, to identify the browser to the web servers."
 msgstr "Erabiltzaile-agente gisa erabiliko den katea, nabigatzailea web-zerbitzarien aurrean identifikatzeko."
 
-#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.ui:59
+#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
 msgstr "Jakinarazpenen lehentasuna"
 
@@ -215,116 +229,134 @@ msgstr "Jakinarazpenen lehentasuna"
 msgid "Sets the priority of notifications"
 msgstr "Jakinarazpenen lehentasuna ezartzen du"
 
-#: data/menu.ui:11
-msgid "Top"
-msgstr "Goian"
-
-#: data/menu.ui:16
-msgid "Left"
-msgstr "Ezkerra"
-
-#: data/menu.ui:21
-msgid "Right"
-msgstr "Eskuina"
-
-#: data/menu.ui:26
-msgid "Bottom"
-msgstr "Behera"
-
-#: data/menu.ui:37
-msgid "Keyboard Shortcuts"
-msgstr "Teklatuko lasterbideak"
-
-#: data/menu.ui:41
-msgid "About Tangram"
-msgstr "Tangrami buruz"
-
-#: data/shortcuts.ui:17
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Orokorra"
-
-#: data/shortcuts.ui:24
-msgctxt "shortcut window"
-msgid "Go to the next tab"
-msgstr "Joan hurrengo erlaitzera"
-
-#: data/shortcuts.ui:36
-msgctxt "shortcut window"
-msgid "Go to the previous tab"
-msgstr "Joan aurreko erlaitzera"
-
-#: data/shortcuts.ui:48
-msgctxt "shortcut window"
-msgid "Move current tab to the left"
-msgstr "Oraingo erlaitza ezkerrera mugitu"
-
-#: data/shortcuts.ui:60
-msgctxt "shortcut window"
-msgid "Move current tab to the right"
-msgstr "Oraingo erlaitza eskuinera mugitu"
-
-#: data/shortcuts.ui:72
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Irten"
-
-#: data/shortcuts.ui:82
-msgctxt "shortcut window"
-msgid "Shortcuts"
-msgstr "Lasterbideak"
-
-#: data/shortcuts.ui:92
-msgctxt "shortcut window"
-msgid "Toggle inspector"
-msgstr "Ikuskatzailea kommutatu"
-
-#: data/shortcuts.ui:104
-msgctxt "shortcut window"
-msgid "First – Ninth Tab"
-msgstr "Lehenengoa - Bederatzigarrena erlaitza"
-
-#: data/shortcuts.ui:116
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "Nabigazioa"
-
-#: data/shortcuts.ui:123
-msgctxt "shortcut window"
-msgid "Go to homepage"
-msgstr "Joan hasierako orrira"
-
-#: data/shortcuts.ui:133
-msgctxt "shortcut window"
-msgid "Reload current page"
-msgstr "Egungo orrialdea berriz kargatu"
-
-#: data/shortcuts.ui:143
-msgctxt "shortcut window"
-msgid "Reload bypassing cache"
-msgstr "Berriro kargatu, katxea kenduta"
-
-#: data/shortcuts.ui:155
-msgctxt "shortcut window"
-msgid "Stop loading current page"
-msgstr "Oraingo orrialdearen karga gelditu"
-
-#: data/shortcuts.ui:165 data/shortcuts.ui:198
-msgctxt "shortcut window"
-msgid "Go back to the previous page"
-msgstr "Itzuli aurreko orrira"
-
-#: data/shortcuts.ui:175 data/shortcuts.ui:210
-msgctxt "shortcut window"
-msgid "Go forward to the next page"
-msgstr "Aurrera egin hurrengo orrira"
-
-#: data/shortcuts.ui:185
-msgctxt "shortcut window"
-msgid "Focus the address bar"
-msgstr "Helbide-barra enfokatu"
-
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
 msgstr "Sergio Varela <sergiovg01@outlook.com>"
+
+#: src/instanceDialog.blp:46
+msgid "Normal"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "Low"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+msgid "High"
+msgstr ""
+
+#: src/instanceDialog.blp:46
+#, fuzzy
+#| msgid "User agent"
+msgid "Urgent"
+msgstr "Erabiltzaile-agentea"
+
+#: src/shortcuts.blp:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Orokorra"
+
+#: src/shortcuts.blp:14
+msgctxt "shortcut window"
+msgid "Go to the next tab"
+msgstr "Joan hurrengo erlaitzera"
+
+#: src/shortcuts.blp:19
+msgctxt "shortcut window"
+msgid "Go to the previous tab"
+msgstr "Joan aurreko erlaitzera"
+
+#: src/shortcuts.blp:24
+msgctxt "shortcut window"
+msgid "Move current tab to the left"
+msgstr "Oraingo erlaitza ezkerrera mugitu"
+
+#: src/shortcuts.blp:29
+msgctxt "shortcut window"
+msgid "Move current tab to the right"
+msgstr "Oraingo erlaitza eskuinera mugitu"
+
+#: src/shortcuts.blp:34
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Irten"
+
+#: src/shortcuts.blp:39
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Lasterbideak"
+
+#: src/shortcuts.blp:44
+msgctxt "shortcut window"
+msgid "Toggle inspector"
+msgstr "Ikuskatzailea kommutatu"
+
+#: src/shortcuts.blp:49
+msgctxt "shortcut window"
+msgid "First – Ninth Tab"
+msgstr "Lehenengoa - Bederatzigarrena erlaitza"
+
+#: src/shortcuts.blp:55
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Nabigazioa"
+
+#: src/shortcuts.blp:58
+msgctxt "shortcut window"
+msgid "Go to homepage"
+msgstr "Joan hasierako orrira"
+
+#: src/shortcuts.blp:63
+msgctxt "shortcut window"
+msgid "Reload current page"
+msgstr "Egungo orrialdea berriz kargatu"
+
+#: src/shortcuts.blp:68
+msgctxt "shortcut window"
+msgid "Reload bypassing cache"
+msgstr "Berriro kargatu, katxea kenduta"
+
+#: src/shortcuts.blp:73
+msgctxt "shortcut window"
+msgid "Stop loading current page"
+msgstr "Oraingo orrialdearen karga gelditu"
+
+#: src/shortcuts.blp:78 src/shortcuts.blp:94
+msgctxt "shortcut window"
+msgid "Go back to the previous page"
+msgstr "Itzuli aurreko orrira"
+
+#: src/shortcuts.blp:83 src/shortcuts.blp:99
+msgctxt "shortcut window"
+msgid "Go forward to the next page"
+msgstr "Aurrera egin hurrengo orrira"
+
+#: src/shortcuts.blp:88
+msgctxt "shortcut window"
+msgid "Focus the address bar"
+msgstr "Helbide-barra enfokatu"
+
+#: src/menu.blp:13
+msgid "Top"
+msgstr "Goian"
+
+#: src/menu.blp:19
+msgid "Left"
+msgstr "Ezkerra"
+
+#: src/menu.blp:25
+msgid "Right"
+msgstr "Eskuina"
+
+#: src/menu.blp:31
+msgid "Bottom"
+msgstr "Behera"
+
+#: src/menu.blp:40
+msgid "Keyboard Shortcuts"
+msgstr "Teklatuko lasterbideak"
+
+#: src/menu.blp:45
+msgid "About Tangram"
+msgstr "Tangrami buruz"
