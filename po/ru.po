@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: 2023-09-30 15:04+0000\n"
-"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
+"PO-Revision-Date: 2024-08-10 05:09+0000\n"
+"Last-Translator: Степан Наумов <st250492@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tangram/tangram/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
@@ -153,7 +153,7 @@ msgstr "Tangram теперь корректно работает с Flatpak 1.0 
 
 #: data/re.sonny.Tangram.desktop:13
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
-msgstr "Franz;Ferdi;Rambox;Wavebox;Station;"
+msgstr "Франц; Ферди; Рамбокс; Вейвбокс; Станция;"
 
 #: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
@@ -169,7 +169,7 @@ msgstr "Ширина окна"
 
 #: data/re.sonny.Tangram.gschema.xml:29
 msgid "Width of the window"
-msgstr "Ширина окна"
+msgstr "Ширина окна программы"
 
 #: data/re.sonny.Tangram.gschema.xml:34
 msgid "Window height"
@@ -177,7 +177,7 @@ msgstr "Высота окна"
 
 #: data/re.sonny.Tangram.gschema.xml:35
 msgid "Height of the window"
-msgstr "Высота окна"
+msgstr "Высота окна программы"
 
 #: data/re.sonny.Tangram.gschema.xml:40
 msgid "Window maximized"
@@ -230,9 +230,7 @@ msgstr "Устанавливает приоритет уведомлений"
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
-msgstr ""
-"Fedor <fed777os@gmail.com>, 2022\n"
-"Artem Vorotnikov, 2023"
+msgstr "Fedor <fed777os@gmail.com>, 2022 Artem Vorotnikov, 2023"
 
 #: src/instanceDialog.blp:46
 msgid "Normal"
