@@ -8,349 +8,351 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-03 18:00+0000\n"
+"Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
+"Language-Team: Bulgarian <https://hosted.weblate.org/projects/tangram/tangram/bg/>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
-msgstr ""
+msgstr "Tangram"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:6
 msgid "Sonny Piers"
-msgstr ""
+msgstr "Sonny Piers"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:10
 #: data/re.sonny.Tangram.desktop:4
 msgid "Browser for your pinned tabs"
-msgstr ""
+msgstr "Браузър за вашите прикачени подпрозорци"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:13
 msgid "Tangram is a new kind of browser. It is designed to organize and run your Web applications. Each tab is persistent and independent. You can set multiple tabs with different accounts for the same application."
-msgstr ""
+msgstr "Tangram е нов вид браузър. Той е предназначен за организиране и изпълнение на вашите уеб приложения. Всеки подпрозорец е устойчив и независим. Може да зададете няколко подпрозорци с различни регистрации за едно и също приложение."
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:17
 msgid "Common use cases:"
-msgstr ""
+msgstr "Често срещани случаи на употреба:"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:20
 msgid "Stay up to date with your favorite communities; Mastodon, Twitter, ..."
-msgstr ""
+msgstr "Бъдете в крак с любимите си общности: Mastodon, Twitter, …"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:22
 msgid "Merge all these chat applications into one; WhatsApp, Messenger, Telegram, ..."
-msgstr ""
+msgstr "Сливане на всички тези програми за чат в едно; WhatsApp, Messenger, Telegram, …"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:24
 msgid "Group your organization tools under one application; EMail, Calendar, ..."
-msgstr ""
+msgstr "Групирайте инструментите си за организация в една програма: е—поща, календар, …"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:25
 msgid "One-stop for multiple sources of documentation or information"
-msgstr ""
+msgstr "Едно място за множество източници на документация или информация"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:43
 msgid "Fix a bug preventing to start Tangram"
-msgstr ""
+msgstr "Поправена е грешка, която не позволяваше да се стартира Tangram"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:44
 msgid "Reduce the noisiness of logs"
-msgstr ""
+msgstr "Намалени са съобщенията на журналите"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:52
 msgid "Fix a bug preventing to add new tabs"
-msgstr ""
+msgstr "Поправена е грешка, която не позволяваше да се добавят нови подпрозорци"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
-msgstr ""
+msgstr "Приоритетът на известията стандартно вече е нормален вместо спешен"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
-msgstr ""
+msgstr "Добавена на настройка за всеки подпрозорец за промяна на приоритета на известията"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
-msgstr ""
+msgstr "Поправено е удостоверяването в много популярни уеб сайтове"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
-msgstr ""
+msgstr "Поправен е бутона „Отказ“ в диалоговия прозорец с настройките на подпрозореца"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
-msgstr ""
+msgstr "Използване на средно натискане или Ctrl+натискане, за да отваряте връзки в браузъра"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
-msgstr ""
+msgstr "Поправено е заглавието на прозореца"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
-msgstr ""
+msgstr "Обновен е GNOME средата за изпълнение до 41"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
-msgstr ""
+msgstr "Поправен е проблем, който не позволяваше на някои сайтове, например Twitter или Facebook, да бъдат добавяни."
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
-msgstr ""
+msgstr "Обновен е GNOME средата за изпълнение до 3.38"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
-msgstr ""
+msgstr "Включване на проверката на правописа"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
-msgstr ""
+msgstr "Способност за настройване на потребителския агент за всяка инстанция"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
-msgstr ""
+msgstr "Нова иконка и лого на проекта"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
-msgstr ""
+msgstr "Цветът на фона в новите подпрозорци вече уважава тъмния режим"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
-msgstr ""
+msgstr "Добавена е способност за изтегляне на файлове"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
-msgstr ""
+msgstr "Добавен е бутон за начало"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
-msgstr ""
+msgstr "По—добра интеграция с работната среда"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
-msgstr ""
+msgstr "Основният прозорец вече не става малък при демаксимизиране"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
-msgstr ""
+msgstr "Включване на жестове за навигация с плъзгане на сензорния панел/екран"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
-msgstr ""
+msgstr "По—добра обработка на известията"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
-msgstr ""
+msgstr "Подобрена уеб съвместимост и производителност"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
-msgstr ""
+msgstr "Tangram вече работи нормално на Flatpak 1.0 (Linux Mint, Ubuntu 18.04, …)"
 
 #: data/re.sonny.Tangram.desktop:13
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
-msgstr ""
+msgstr "Franz;Ferdi;Rambox;Wavebox;станция;"
 
 #: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
-msgstr ""
+msgstr "Позиция на подпрозорец"
 
 #: data/re.sonny.Tangram.gschema.xml:23
 msgid "Sets the position of the tabs"
-msgstr ""
+msgstr "Задава позицията на подпрозорците"
 
 #: data/re.sonny.Tangram.gschema.xml:28
 msgid "Window width"
-msgstr ""
+msgstr "Широчина на прозореца"
 
 #: data/re.sonny.Tangram.gschema.xml:29
 msgid "Width of the window"
-msgstr ""
+msgstr "Широчината на прозореца"
 
 #: data/re.sonny.Tangram.gschema.xml:34
 msgid "Window height"
-msgstr ""
+msgstr "Височина на прозореца"
 
 #: data/re.sonny.Tangram.gschema.xml:35
 msgid "Height of the window"
-msgstr ""
+msgstr "Височината на прозореца"
 
 #: data/re.sonny.Tangram.gschema.xml:40
 msgid "Window maximized"
-msgstr ""
+msgstr "Максимизиран прозорец"
 
 #: data/re.sonny.Tangram.gschema.xml:41
 msgid "Whether the window is maximized"
-msgstr ""
+msgstr "Дали прозорецът е максимизиран"
 
 #: data/re.sonny.Tangram.gschema.xml:46
 msgid "Instances"
-msgstr ""
+msgstr "Инстанции"
 
 #: data/re.sonny.Tangram.gschema.xml:48
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
-msgstr ""
+msgstr "Идентификатори на инстанциите, които могат да бъдат намерени в /re/sonny/Tangram/instances/"
 
 #: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
-msgstr ""
+msgstr "Име"
 
 #: data/re.sonny.Tangram.gschema.xml:56
 msgid "Name to display"
-msgstr ""
+msgstr "Име за показване"
 
 #: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
-msgstr ""
+msgstr "Адрес"
 
 #: data/re.sonny.Tangram.gschema.xml:61
 msgid "Start URL"
-msgstr ""
+msgstr "Начален адрес"
 
 #: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
-msgstr ""
+msgstr "Име на потребителски агент"
 
 #: data/re.sonny.Tangram.gschema.xml:67
 msgid "String that will be used as user agent, to identify the browser to the web servers."
-msgstr ""
+msgstr "Име, с което браузърът ще се представя пред уеб сървърите."
 
 #: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
-msgstr ""
+msgstr "Приоритет на известията"
 
 #: data/re.sonny.Tangram.gschema.xml:75
 msgid "Sets the priority of notifications"
-msgstr ""
+msgstr "Задава приоритета на известията"
 
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
-msgstr ""
+msgstr "twlvnn kraftwerk <kraft_werk@tutanota.com>"
 
 #: src/instanceDialog.blp:46
 msgid "Normal"
-msgstr ""
+msgstr "Нормално"
 
 #: src/instanceDialog.blp:46
 msgid "Low"
-msgstr ""
+msgstr "Ниско"
 
 #: src/instanceDialog.blp:46
 msgid "High"
-msgstr ""
+msgstr "Високо"
 
 #: src/instanceDialog.blp:46
 msgid "Urgent"
-msgstr ""
+msgstr "Спешно"
 
 #: src/shortcuts.blp:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Основни"
 
 #: src/shortcuts.blp:14
 msgctxt "shortcut window"
 msgid "Go to the next tab"
-msgstr ""
+msgstr "Към следващия подпрозорец"
 
 #: src/shortcuts.blp:19
 msgctxt "shortcut window"
 msgid "Go to the previous tab"
-msgstr ""
+msgstr "Към предишния подпрозорец"
 
 #: src/shortcuts.blp:24
 msgctxt "shortcut window"
 msgid "Move current tab to the left"
-msgstr ""
+msgstr "Преместване на подпрозореца наляво"
 
 #: src/shortcuts.blp:29
 msgctxt "shortcut window"
 msgid "Move current tab to the right"
-msgstr ""
+msgstr "Преместване на подпрозореца надясно"
 
 #: src/shortcuts.blp:34
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Спиране на програмата"
 
 #: src/shortcuts.blp:39
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr ""
+msgstr "Клавишни комбинации"
 
 #: src/shortcuts.blp:44
 msgctxt "shortcut window"
 msgid "Toggle inspector"
-msgstr ""
+msgstr "Инспектор"
 
 #: src/shortcuts.blp:49
 msgctxt "shortcut window"
 msgid "First – Ninth Tab"
-msgstr ""
+msgstr "Първи — девети подпрозорец"
 
 #: src/shortcuts.blp:55
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "Навигация"
 
 #: src/shortcuts.blp:58
 msgctxt "shortcut window"
 msgid "Go to homepage"
-msgstr ""
+msgstr "Към началната страница"
 
 #: src/shortcuts.blp:63
 msgctxt "shortcut window"
 msgid "Reload current page"
-msgstr ""
+msgstr "Презареждане на текущата страница"
 
 #: src/shortcuts.blp:68
 msgctxt "shortcut window"
 msgid "Reload bypassing cache"
-msgstr ""
+msgstr "Презареждане без ползване на кеша"
 
 #: src/shortcuts.blp:73
 msgctxt "shortcut window"
 msgid "Stop loading current page"
-msgstr ""
+msgstr "Спиране на зареждането на текущата страница"
 
 #: src/shortcuts.blp:78 src/shortcuts.blp:94
 msgctxt "shortcut window"
 msgid "Go back to the previous page"
-msgstr ""
+msgstr "Назад към предишната страница"
 
 #: src/shortcuts.blp:83 src/shortcuts.blp:99
 msgctxt "shortcut window"
 msgid "Go forward to the next page"
-msgstr ""
+msgstr "Напред към следващата страница"
 
 #: src/shortcuts.blp:88
 msgctxt "shortcut window"
 msgid "Focus the address bar"
-msgstr ""
+msgstr "Фокусиране върху лентата за адреси"
 
 #: src/menu.blp:13
 msgid "Top"
-msgstr ""
+msgstr "Горе"
 
 #: src/menu.blp:19
 msgid "Left"
-msgstr ""
+msgstr "Вляво"
 
 #: src/menu.blp:25
 msgid "Right"
-msgstr ""
+msgstr "Вдясно"
 
 #: src/menu.blp:31
 msgid "Bottom"
-msgstr ""
+msgstr "Доло"
 
 #: src/menu.blp:40
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Клавишни комбинации"
 
 #: src/menu.blp:45
 msgid "About Tangram"
-msgstr ""
+msgstr "Относно „Tangram“"
