@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: 2022-04-29 03:12+0000\n"
-"Last-Translator: Fedor <fed777os@gmail.com>\n"
+"PO-Revision-Date: 2024-12-03 13:00+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/tangram/tangram/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
@@ -57,7 +57,7 @@ msgstr "Yksi pysähdys monelle tiedon tai dokumentaation lähteelle"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:43
 msgid "Fix a bug preventing to start Tangram"
-msgstr ""
+msgstr "Tangramin käynnistämisen estävän vian korjaaminen"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:44
 msgid "Reduce the noisiness of logs"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:52
 msgid "Fix a bug preventing to add new tabs"
-msgstr ""
+msgstr "Korjaa vika, joka estää uusien välilehtien lisäämisen"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
@@ -184,10 +184,8 @@ msgid "Window maximized"
 msgstr "Ikkuna suurennettu"
 
 #: data/re.sonny.Tangram.gschema.xml:41
-#, fuzzy
-#| msgid "Weither the window is maximized"
 msgid "Whether the window is maximized"
-msgstr "Josko ikkuna on suurennettu"
+msgstr "Onko ikkuna maksimoitu"
 
 #: data/re.sonny.Tangram.gschema.xml:46
 msgid "Instances"
@@ -236,21 +234,19 @@ msgstr "kääntäjän arvosanat"
 
 #: src/instanceDialog.blp:46
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 #: src/instanceDialog.blp:46
 msgid "Low"
-msgstr ""
+msgstr "Alhainen"
 
 #: src/instanceDialog.blp:46
 msgid "High"
-msgstr ""
+msgstr "Korkea"
 
 #: src/instanceDialog.blp:46
-#, fuzzy
-#| msgid "User agent"
 msgid "Urgent"
-msgstr "Käyttäjäagentti"
+msgstr "Kiireellinen"
 
 #: src/shortcuts.blp:11
 msgctxt "shortcut window"
