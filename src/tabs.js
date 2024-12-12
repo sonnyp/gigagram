@@ -64,6 +64,7 @@ export function Tabs({
       webview.instance_id = instance.id;
 
       const tab_page = tab_view.append(webview);
+      tab_page.set_live_thumbnail(true);
 
       webview.bind_property(
         "favicon",
