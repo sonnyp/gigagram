@@ -1,6 +1,6 @@
 import Gtk from "gi://Gtk";
 
-import { once } from "../troll/src/util.js";
+import { once } from "../troll/src/async.js";
 import instance_dialog from "./instanceDialog.blp" assert { type: "string" };
 
 export async function instanceDialog({ window, instance, onDeleteInstance }) {

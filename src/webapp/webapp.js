@@ -2,7 +2,7 @@ import GLib from "gi://GLib";
 import Soup from "gi://Soup";
 import GdkPixbuf from "gi://GdkPixbuf";
 
-import { promiseTask } from "../../troll/src/util.js";
+import { promiseTask } from "../../troll/src/async.js";
 
 const { byteArray } = imports;
 

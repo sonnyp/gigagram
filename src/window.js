@@ -24,6 +24,7 @@ import ViewNewInterface from "./ViewNew.blp";
 import "./icons/tabs-stack-symbolic.svg" assert { type: "icon" };
 import { ViewTabs } from "./ViewTabs.js";
 import { ViewNew } from "./ViewNew.js";
+import { persistWindowState } from "../troll/src/util.js";
 
 export default function Window({ application, state }) {
   const settings = new Settings({
@@ -68,6 +69,7 @@ export default function Window({ application, state }) {
     onNotification,
     deleteInstance,
     breakpoint,
+    settings,
   });
 
   const stack_views = builder_window.get_object("stack_views");
@@ -122,27 +124,7 @@ export default function Window({ application, state }) {
 
   window.set_application(application);
 
-  // https://developer.gnome.org/documentation/tutorials/save-state.html
-  // FIXME: choppy
-  // https://github.com/sonnyp/Tangram/issues/192#issuecomment-1382729140
-  settings.bind(
-    "window-width",
-    window,
-    "default-width",
-    Gio.SettingsBindFlags.DEFAULT,
-  );
-  settings.bind(
-    "window-height",
-    window,
-    "default-height",
-    Gio.SettingsBindFlags.DEFAULT,
-  );
-  settings.bind(
-    "window-maximized",
-    window,
-    "maximized",
-    Gio.SettingsBindFlags.DEFAULT,
-  );
+  persistWindowState({ settings, window });
 
   function onNotification(webkit_notification, instance_id) {
     const priority = instances
