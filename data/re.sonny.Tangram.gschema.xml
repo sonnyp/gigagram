@@ -37,12 +37,6 @@
       <description>Whether a tab bar should be shown</description>
     </key>
 
-    <key name="tab-sidebar" type="b">
-      <default>true</default>
-      <summary>Show a tab sidebar</summary>
-      <description>Whether a tab sidebar should be shown</description>
-    </key>
-
     <key name="instances" type="as">
       <default>[]</default>
       <summary>Instances</summary>

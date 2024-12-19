@@ -10,6 +10,17 @@ Adw.ToolbarView view_tabs {
   [top]
   Adw.HeaderBar header_bar_content_top {
     [start]
+    Button button_add_tab {
+      visible: bind tab_overview.open;
+      styles ["suggested-action"]
+
+      Adw.ButtonContent {
+        label: _("Add Tab");
+        icon-name: "tab-new-symbolic";
+      }
+    }
+
+    [start]
     Box {
       spacing: 6;
       visible: bind tab_overview.open inverted;
@@ -69,7 +80,6 @@ Adw.ToolbarView view_tabs {
     view: tab_view;
     hexpand: true;
     vexpand: true;
-    enable-new-tab: true;
     // Disables the header bar
     enable-search: false;
     show-start-title-buttons: false;
@@ -77,7 +87,7 @@ Adw.ToolbarView view_tabs {
 
     child: Box {
       orientation: vertical;
-      Adw.TabBar tab_bar {
+      Adw.TabBar tabs_bar {
         view: tab_view;
         visible: false;
       }
@@ -151,7 +161,7 @@ Adw.ToolbarView view_tabs {
 
 menu menu_app {
   item {
-    label: _("Show tabs bar");
+    label: _("Show Tabs Bar");
     action: "app.tabs-bar";
   }
 

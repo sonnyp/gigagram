@@ -74,8 +74,8 @@ export function ViewTabs({
 
   const view_tabs = builder.get_object("view_tabs");
 
-  const tab_bar = builder.get_object("tab_bar");
-  settings.bind("tabs-bar", tab_bar, "visible", Gio.SettingsBindFlags.DEFAULT);
+  const tabs_bar = builder.get_object("tabs_bar");
+  settings.bind("tabs-bar", tabs_bar, "visible", Gio.SettingsBindFlags.DEFAULT);
 
   tab_overview.bind_property_full(
     "open",
@@ -101,7 +101,8 @@ export function ViewTabs({
     setupHeaderbar(false);
   });
 
-  tab_overview.connect("create-tab", onNewTab);
+  const button_add_tab = builder.get_object("button_add_tab");
+  button_add_tab.connect("clicked", onNewTab);
 
   function updateButtons(webview) {
     button_back_top.sensitive = webview.can_go_back();
