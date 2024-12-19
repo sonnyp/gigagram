@@ -1,4 +1,9 @@
 import Gtk from "gi://Gtk";
+import Adw from "gi://Adw";
+import Gio from "gi://Gio";
+import { gettext as _ } from "gettext";
+
+Gio._promisify(Adw.AlertDialog.prototype, "choose", "choose_finish");
 
 import instance_dialog from "./instanceDialog.blp" assert { type: "string" };
 
@@ -9,8 +14,7 @@ export function instanceDialog({ window, instance, onDeleteInstance }) {
 
   const button_delete = builder.get_object("button_delete");
   button_delete.connect("clicked", () => {
-    onDeleteInstance(instance.id);
-    dialog.close();
+    onDelete({ dialog, onDeleteInstance, instance }).catch(console.error);
   });
 
   const nameEntry = builder.get_object("name");
@@ -51,4 +55,26 @@ export function instanceDialog({ window, instance, onDeleteInstance }) {
   });
 
   dialog.present(window);
+}
+
+async function onDelete({ dialog, onDeleteInstance, instance }) {
+  const alert_dialog = new Adw.AlertDialog({
+    heading: _("Delete Tab?"),
+    body: _("The Tab and locally saved data will be gone."),
+    close_response: "cancel",
+  });
+
+  alert_dialog.add_response("cancel", "Cancel");
+  alert_dialog.add_response("delete", "Delete");
+  alert_dialog.set_response_appearance(
+    "delete",
+    Adw.ResponseAppearance.DESTRUCTIVE,
+  );
+
+  const response = await alert_dialog.choose(dialog, null);
+
+  if (response === "delete") {
+    onDeleteInstance(instance.id);
+    dialog.force_close();
+  }
 }
