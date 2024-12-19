@@ -4,8 +4,6 @@ import GdkPixbuf from "gi://GdkPixbuf";
 
 import { promiseTask } from "../../troll/src/async.js";
 
-const { byteArray } = imports;
-
 import {
   getWebAppIcon,
   getWebAppTitle,
@@ -30,32 +28,42 @@ export function runJavaScript(webview, script) {
 // without a `content-length` header
 // import fetch from "../troll/std/fetch";
 export async function fetchManifest(url, webview) {
-  const session = new Soup.Session();
-  const message = new Soup.Message({
-    method: "GET",
-    uri: GLib.Uri.parse(url, GLib.UriFlags.NONE),
-  });
-  message.get_request_headers().append("Cache-Control", "no-cache");
-  if (webview) {
-    message
-      .get_request_headers()
-      .append("User-Agent", webview.get_settings().get_user_agent());
-  }
-
   try {
-    const body = await promiseTask(
-      session,
-      "send_and_read_async",
-      "send_and_read_finish",
-      message,
-      GLib.PRIORITY_DEFAULT,
-      null,
-    );
-    return JSON.parse(byteArray.toString(byteArray.fromGBytes(body)));
+    const uri = GLib.Uri.parse(url, GLib.UriFlags.NONE);
+
+    let bytes;
+
+    const scheme = uri.get_scheme();
+    if (scheme === "data") {
+      [bytes] = Soup.uri_decode_data_uri(url);
+    } else {
+      const session = new Soup.Session();
+      const message = new Soup.Message({
+        method: "GET",
+        uri,
+      });
+      message.get_request_headers().append("Cache-Control", "no-cache");
+      if (webview) {
+        message
+          .get_request_headers()
+          .append("User-Agent", webview.get_settings().get_user_agent());
+      }
+      bytes = await promiseTask(
+        session,
+        "send_and_read_async",
+        "send_and_read_finish",
+        message,
+        GLib.PRIORITY_DEFAULT,
+        null,
+      );
+    }
+
+    return JSON.parse(new TextDecoder().decode(bytes));
   } catch (err) {
     logError(err);
-    return null;
   }
+
+  return null;
 }
 
 async function getTitle(webview) {
