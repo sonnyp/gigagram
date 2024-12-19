@@ -35,3 +35,5 @@ src/ViewTabs.blp
 src/ViewNew.blp
 src/ViewTabs.js
 src/ViewNew.js
+
+troll/src/async.js

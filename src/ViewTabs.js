@@ -88,6 +88,8 @@ export function ViewTabs({
     null,
   );
 
+  setupTabs({ builder, settings });
+
   function setupHeaderbar(is_handheld) {
     view_tabs.reveal_bottom_bars = is_handheld;
     view_tabs.reveal_top_bars = !is_handheld;
@@ -149,4 +151,63 @@ export function ViewTabs({
   });
 
   return { tabs };
+}
+
+function setupTabs({ builder, settings }) {
+  const list_box = builder.get_object("list_box");
+  const tab_view = builder.get_object("tab_view");
+  const sidebar = builder.get_object("sidebar");
+
+  settings.bind(
+    "tabs-sidebar",
+    sidebar,
+    "visible",
+    Gio.SettingsBindFlags.DEFAULT,
+  );
+
+  tab_view.connect("notify::n-pages", (self) => {
+    sidebar.visible =
+      settings.get_boolean("tabs-sidebar") && tab_view["n-pages"] > 1;
+  });
+
+  // Create a binding between the Gtk.ListBox and the Adw.TabView
+
+  list_box.bind_model(
+    tab_view.pages,
+    // This function will be called for every new Adw.TabPage
+    (tab_page) => {
+      return buildTabRow(tab_page);
+    },
+  );
+
+  list_box.connect("row-selected", (self, row) => {
+    tab_view.set_selected_page(row.tab_page);
+  });
+
+  tab_view.connect("notify::selected-page", (self, page) => {
+    list_box.select_row(tab_view.selected_page.list_box_row);
+  });
+}
+
+function buildTabRow(tab_page) {
+  const list_box_row = new Gtk.ListBoxRow({
+    selectable: true,
+    height_request: 40,
+  });
+  list_box_row.tab_page = tab_page;
+  const label = new Gtk.Label({
+    halign: Gtk.Align.START,
+  });
+  list_box_row.set_child(label);
+
+  tab_page.list_box_row = list_box_row;
+
+  tab_page.bind_property(
+    "title",
+    label,
+    "label",
+    GObject.BindingFlags.SYNC_CREATE,
+  );
+
+  return list_box_row;
 }

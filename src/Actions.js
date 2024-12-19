@@ -76,6 +76,7 @@ export default function Actions({
   });
   application.add_action(quit);
 
-  const show_tabs_bar = settings.create_action("tabs-bar");
-  application.add_action(show_tabs_bar);
+  application.add_action(settings.create_action("tabs-bar"));
+
+  application.add_action(settings.create_action("tabs-sidebar"));
 }

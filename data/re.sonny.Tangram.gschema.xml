@@ -32,9 +32,15 @@
     </key>
 
     <key name="tabs-bar" type="b">
-      <default>true</default>
-      <summary>Show a tab bar</summary>
-      <description>Whether a tab bar should be shown</description>
+      <default>false</default>
+      <summary>Show the Tabs Bar</summary>
+      <description>Whether the tabs bar should be shown</description>
+    </key>
+
+    <key name="tabs-sidebar" type="b">
+      <default>false</default>
+      <summary>Show the Tabs sidebar</summary>
+      <description>Whether the tabs sidebar should be shown</description>
     </key>
 
     <key name="instances" type="as">
