@@ -92,12 +92,29 @@ Adw.ToolbarView view_tabs {
         visible: false;
       }
 
-      Adw.TabView tab_view {
-        hexpand: true;
-        vexpand: true;
-        shortcuts: all_shortcuts;
+      Box {
+        Box sidebar {
+          visible: false;
+          Gtk.ScrolledWindow {
+            width-request: 200;
+            hscrollbar-policy: never;
+
+            Gtk.ListBox list_box {
+              selection-mode: browse;
+            }
+          }
+
+          Gtk.Separator {}
+        }
+
+        Adw.TabView tab_view {
+          hexpand: true;
+          vexpand: true;
+          shortcuts: all_shortcuts;
+        }
       }
     };
+
   }
 
   [bottom]
@@ -160,9 +177,16 @@ Adw.ToolbarView view_tabs {
 }
 
 menu menu_app {
-  item {
-    label: _("Show Tabs Bar");
-    action: "app.tabs-bar";
+  section {
+    item {
+      label: _("Show Tabs Bar");
+      action: "app.tabs-bar";
+    }
+
+    item {
+      label: _("Show Tabs Sidebar");
+      action: "app.tabs-sidebar";
+    }
   }
 
   section {
