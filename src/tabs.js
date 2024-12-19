@@ -105,7 +105,7 @@ export function Tabs({
         window,
         instance,
         onDeleteInstance: deleteInstance,
-      }).catch(logError);
+      });
     },
   };
 }

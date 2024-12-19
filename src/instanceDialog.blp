@@ -1,59 +1,65 @@
 using Gtk 4.0;
 using Adw 1;
 
-Dialog dialog {
-  modal: true;
-  use-header-bar: 1;
-  // default-height: 580;
-  default-width: 640;
+Adw.Dialog dialog {
+  content-width: 640;
 
-  [action response=cancel]
-  Button button_cancel {
-    label: _("Cancel");
-  }
+  Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {
+      show-start-title-buttons: false;
+      show-end-title-buttons: false;
 
-  [action response=apply default]
-  Button button_save {
-    label: _("Update");
-  }
-
-  Adw.PreferencesPage {
-    vexpand: true;
-
-    Adw.PreferencesGroup {
-      vexpand: true;
-
-      Adw.EntryRow name {
-        title: _("Name");
+      [start]
+      Button button_cancel {
+        label: _("Cancel");
       }
 
-      Adw.EntryRow url {
-        title: _("Homepage");
-        input-purpose: url;
+      [end]
+      Button button_save {
+        label: _("Update");
+        styles ["suggested-action"]
       }
     }
 
-    Adw.PreferencesGroup {
+    Adw.PreferencesPage {
       vexpand: true;
 
+      Adw.PreferencesGroup {
+        vexpand: true;
 
-      Adw.ComboRow notifications-priority {
-        title: _("Notifications priority");
-        model: StringList {
-          strings [_("Normal"), _("Low"), _("High"), _("Urgent")]
-        };
+        Adw.EntryRow name {
+          title: _("Name");
+        }
+
+        Adw.EntryRow url {
+          title: _("Homepage");
+          input-purpose: url;
+        }
       }
 
-      Adw.EntryRow user-agent {
-        title: _("User agent");
-      }
-    }
+      Adw.PreferencesGroup {
+        vexpand: true;
 
-    Adw.PreferencesGroup {
-      Button button_delete {
-        label: "Delete Tab";
-        styles ["destructive-action", "pill"]
-        halign: center;
+
+        Adw.ComboRow notifications-priority {
+          title: _("Notifications priority");
+          model: StringList {
+            strings [_("Normal"), _("Low"), _("High"), _("Urgent")]
+          };
+        }
+
+        Adw.EntryRow user-agent {
+          title: _("User agent");
+        }
+      }
+
+      Adw.PreferencesGroup {
+        Button button_delete {
+          label: "Delete Tab";
+          styles ["destructive-action", "pill"]
+          halign: center;
+        }
       }
     }
   }
