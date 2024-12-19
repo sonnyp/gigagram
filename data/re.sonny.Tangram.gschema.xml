@@ -31,7 +31,7 @@
       <default>false</default>
     </key>
 
-    <key name="tab-bar" type="b">
+    <key name="tabs-bar" type="b">
       <default>true</default>
       <summary>Show a tab bar</summary>
       <description>Whether a tab bar should be shown</description>

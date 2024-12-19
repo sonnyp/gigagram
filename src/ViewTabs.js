@@ -3,6 +3,7 @@ import Gtk from "gi://Gtk";
 import Gdk from "gi://Gdk";
 import GObject from "gi://GObject";
 import Adw from "gi://Adw";
+import Gio from "gi://Gio";
 
 export function ViewTabs({
   application,
@@ -18,6 +19,7 @@ export function ViewTabs({
   onNotification,
   deleteInstance,
   breakpoint,
+  settings,
 }) {
   const tab_overview = builder.get_object("tab_overview");
 
@@ -71,6 +73,9 @@ export function ViewTabs({
   });
 
   const view_tabs = builder.get_object("view_tabs");
+
+  const tab_bar = builder.get_object("tab_bar");
+  settings.bind("tabs-bar", tab_bar, "visible", Gio.SettingsBindFlags.DEFAULT);
 
   tab_overview.bind_property_full(
     "open",

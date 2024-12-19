@@ -45,6 +45,7 @@ export default function Window({ application, state }) {
     onCancelNewTab,
     state,
     builder: builder_view_new,
+    onNotification,
   });
 
   function deleteInstance(id) {
@@ -217,6 +218,7 @@ export default function Window({ application, state }) {
     selectTab: tabs.selectTab,
     editTab: tabs.editTab,
     state,
+    settings,
   });
 
   return window;

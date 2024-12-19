@@ -14,6 +14,7 @@ export default function Actions({
   selectTab,
   state,
   editTab,
+  settings,
 }) {
   const builder = Gtk.Builder.new_from_resource(InterfaceShortcuts);
 
@@ -62,9 +63,6 @@ export default function Actions({
       selectTab(instance);
     }
 
-    // FIXME: temporary workaround
-    // Calling this twice to work around: https://gitlab.gnome.org/GNOME/gtk/-/issues/5239
-    window.present();
     window.present();
   });
   application.add_action(showInstanceAction);
@@ -77,4 +75,7 @@ export default function Actions({
     application.quit();
   });
   application.add_action(quit);
+
+  const show_tabs_bar = settings.create_action("tabs-bar");
+  application.add_action(show_tabs_bar);
 }
