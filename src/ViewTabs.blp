@@ -77,6 +77,10 @@ Adw.ToolbarView view_tabs {
 
     child: Box {
       orientation: vertical;
+      Adw.TabBar tab_bar {
+        view: tab_view;
+        visible: false;
+      }
 
       Adw.TabView tab_view {
         hexpand: true;
@@ -146,6 +150,11 @@ Adw.ToolbarView view_tabs {
 }
 
 menu menu_app {
+  item {
+    label: _("Show tabs bar");
+    action: "app.tabs-bar";
+  }
+
   section {
     item {
       label: _("Keyboard Shortcuts");
