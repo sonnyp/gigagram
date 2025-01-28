@@ -38,6 +38,14 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="3.3" date="2025-01-28">
+      <description translatable="no">
+        <ul>
+          <li>Fix crashes when adding or removing tabs</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="3.2" date="2025-01-28">
       <description translatable="no">
         <ul>

@@ -14,7 +14,6 @@ import {
   load as loadInstances,
 } from "./instances.js";
 
-import { MODES } from "./constants.js";
 import * as instances from "./instances.js";
 
 import WindowInterface from "./window.blp";
@@ -151,7 +150,6 @@ export default function Window({ application, state }) {
     const webview = stack_new.get_child_by_name("new-tab");
     const { instance_id } = webview;
     const instance = getInstance(instance_id);
-    instance.url = webview.uri;
 
     const info = await getWebAppInfo(webview);
     console.debug(`WebApp info for ${instance.url}`, info);
@@ -161,9 +159,6 @@ export default function Window({ application, state }) {
     if (!instance.name) {
       instance.name = info.title || webview.title || "";
     }
-
-    webview.load_uri(instance.url);
-    webview.mode = MODES.PERMANENT;
 
     attachInstance(settings, instance.id);
     stack_new.remove(webview);
