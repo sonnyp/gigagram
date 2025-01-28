@@ -1,7 +1,7 @@
 {
   "id": "re.sonny.Tangram",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "master",
+  "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
   "command": "re.sonny.Tangram",
   "finish-args": [

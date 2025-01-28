@@ -44,6 +44,12 @@ Adw.ToolbarView view_tabs {
         icon-name: "go-home-symbolic";
         tooltip-text: _("Homepage");
       }
+
+      Button {
+        icon-name: "view-more-symbolic";
+        tooltip-text: _("Edit Tab");
+        action-name: "win.editTab";
+      }
     }
 
     [title]
@@ -60,19 +66,10 @@ Adw.ToolbarView view_tabs {
 
     [end]
     MenuButton {
-      visible: bind tab_overview.open;
       icon-name: "open-menu-symbolic";
       menu-model: menu_app;
       tooltip-text: _("Main Menu");
       primary: true;
-    }
-
-    [end]
-    Button {
-      visible: bind tab_overview.open inverted;
-      icon-name: "view-more-symbolic";
-      tooltip-text: _("Edit Tab");
-      action-name: "win.editTab";
     }
   }
 

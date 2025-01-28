@@ -32,7 +32,7 @@
     </key>
 
     <key name="tabs-bar" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Show the Tabs Bar</summary>
       <description>Whether the tabs bar should be shown</description>
     </key>

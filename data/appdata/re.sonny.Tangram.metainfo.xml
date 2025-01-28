@@ -18,8 +18,7 @@
     </p>
     <p>Common use cases:</p>
     <ul>
-      <li
-      >Stay up to date with your favorite communities; Mastodon, Twitter, ...</li>
+      <li>Stay up to date with your favorite communities</li>
       <li
       >Merge all these chat applications into one; WhatsApp, Messenger, Telegram, ...</li>
       <li
@@ -41,10 +40,15 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="3.2" date="2024-12-xx">
+    <release version="3.2" date="2025-01-28">
       <description translatable="no">
         <ul>
           <li>Use GNOME platform 47</li>
+          <li>Add a Tab Bar</li>
+          <li>Fix crash when adding codeberg.org</li>
+          <li>Confirm deletion of tabs</li>
+          <li>Fix slow and choppy window resize</li>
+          <li>Enable live thumbnails in tab overview</li>
         </ul>
       </description>
     </release>
