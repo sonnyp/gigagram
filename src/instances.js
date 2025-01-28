@@ -88,8 +88,8 @@ export function destroy(instance) {
     // eslint-disable-next-line no-empty
   } catch {}
 
-  GLib.rmdir(data_dir);
-  GLib.rmdir(cache_dir);
+  GLib.rmdir(instance.data_dir);
+  GLib.rmdir(instance.cache_dir);
 }
 
 export function get(id) {
