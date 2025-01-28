@@ -13,11 +13,9 @@ Browser for your pinned tabs
 Tangram is a new kind of browser. It is designed to organize and run your Web applications.
 Each tab is persistent and independent. You can set multiple tabs with different accounts for the same application.
 
-Common use cases:
-
-- Stay up to date with your favorite communities; Mastodon, Twitter, ...
-- Merge all these chat applications into one; WhatsApp, Messenger, Telegram, ...
-- Group your organization tools under one application; EMail, Calendar, ...
+- Stay up to date with your favorite communities
+- Merge all these chat applications into one
+- Group your organization tools under one application
 - One-stop for multiple sources of documentation or information
 
 ## Features
@@ -68,6 +66,8 @@ You can create a custom application by
 - via the application menu -->
 
 ## In the media
+
+[howtogeek.com - This Linux App Turns Websites Into Apps Themselves—Here's Why It's Great](https://www.howtogeek.com/tangram-linux-app-turns-websites-into-apps/) - 2024-09
 
 [omglinux.com - Tangram for Linux is a Browser Built for Web Apps](https://www.omglinux.com/tangram-web-app-browser-for-linux/) - 2023-01
 
