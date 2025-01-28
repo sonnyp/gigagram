@@ -39,15 +39,16 @@ export function Tabs({
     tab_view.set_selected_page(tab_view.get_page(instance.webview));
   }
 
-  let removing_tab = false;
   tab_view.connect("close-page", (_self, tab_page) => {
-    if (removing_tab) {
-      const instance = instances.get(tab_page.child.instance_id);
-      tab_view.close_page_finish(tab_page, true);
+    tab_view.close_page_finish(tab_page, true);
+
+    tab_overview.set_open(true);
+
+    const instance = instances.get(tab_page.child.instance_id);
+    if (instance) {
       instances.destroy(instance);
-      tab_overview.set_open(true);
     }
-    removing_tab = false;
+
     return Gdk.EVENT_STOP;
   });
 
@@ -95,7 +96,6 @@ export function Tabs({
       });
     },
     removeTab(instance) {
-      removing_tab = true;
       tab_view.close_page(tab_view.get_page(instance.webview));
     },
     selectTab,
