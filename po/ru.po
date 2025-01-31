@@ -7,20 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-27 00:55+0100\n"
-"PO-Revision-Date: 2022-04-29 03:12+0000\n"
-"Last-Translator: Fedor <fed777os@gmail.com>\n"
+"POT-Creation-Date: 2022-09-18 16:27+0200\n"
+"PO-Revision-Date: 2024-08-10 05:09+0000\n"
+"Last-Translator: Степан Наумов <st250492@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tangram/tangram/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
-msgstr "Tangram"
+msgstr "Танграм"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:6
 msgid "Sonny Piers"
@@ -55,95 +55,107 @@ msgstr "Сгруппируйте инструменты вашей органи�
 msgid "One-stop for multiple sources of documentation or information"
 msgstr "Универсальное решение для нескольких источников документации или информации"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:42
+#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+msgid "Fix a bug preventing to start Tangram"
+msgstr "Исправлена ошибка ломавшая запуск Tangram"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+msgid "Reduce the noisiness of logs"
+msgstr "Снижен шум от логов"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:52
+msgid "Fix a bug preventing to add new tabs"
+msgstr "Исправлена ошибка при добавлении новых вкладок"
+
+#: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
 msgstr "Приоритет уведомлений нормальный, а не срочный, по умолчанию"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:43
+#: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
 msgstr "Добавьте настройку для каждой вкладки, чтобы изменить приоритет уведомлений"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:44
+#: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
 msgstr "Исправить аутентификацию на многих популярных веб-сайтах"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:45
+#: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
 msgstr "Исправить кнопку «Отмена» в диалоге настроек вкладки"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:46
+#: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
 msgstr "Используйте щелчок средней кнопкой мыши или Ctrl+щелчок, чтобы открывать ссылки в браузере"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:54
+#: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
 msgstr "Исправить заголовок окна"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:55
+#: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
 msgstr "Обновить среду выполнения GNOME до версии 41"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:64
+#: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
 msgstr "Исправить ошибку, из-за которой некоторые сайты, такие как Twitter или Facebook, не добавляются."
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:65
+#: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
 msgstr "Обновить среду выполнения GNOME до версии 3.38"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:73
+#: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
 msgstr "Включить проверку правописания"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:74
+#: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
 msgstr "Настраиваемый пользовательский агент для каждого процесса"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:75
+#: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
 msgstr "Новый значок/логотип проэкта"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:76
+#: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
 msgstr "Цвет фона новой вкладки соответствует темному режиму"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:84
+#: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
-msgstr "Цвет фона новой вкладки соответствует темному режиму"
+msgstr "Добавить поддержку загрузки файлов"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:85
+#: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
 msgstr "Добавить кнопку \"Домой\""
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:86
+#: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
 msgstr "Улучшенная интеграция с рабочим столом"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:87
+#: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
 msgstr "Исправлена ошибка, из-за которой главное окно становилось крошечным при разворачивании"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:88
+#: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
 msgstr "Включить жесты навигации по тачпаду/сенсорному экрану"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:96
+#: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
 msgstr "Улучшенная обработка уведомлений"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:97
+#: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
 msgstr "Улучшенная веб-совместимость и производительность"
 
-#: data/appdata/re.sonny.Tangram.metainfo.xml:99
+#: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 msgstr "Tangram теперь корректно работает с Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
 
 #: data/re.sonny.Tangram.desktop:13
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
-msgstr "Franz;Ferdi;Rambox;Wavebox;Station;"
+msgstr "Франц; Ферди; Рамбокс; Вейвбокс; Станция;"
 
-#: data/re.sonny.Tangram.gschema.xml:22 data/menu.ui:8
+#: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
 msgstr "Позиция вкладок"
 
@@ -157,7 +169,7 @@ msgstr "Ширина окна"
 
 #: data/re.sonny.Tangram.gschema.xml:29
 msgid "Width of the window"
-msgstr "Ширина окна"
+msgstr "Ширина окна программы"
 
 #: data/re.sonny.Tangram.gschema.xml:34
 msgid "Window height"
@@ -165,14 +177,14 @@ msgstr "Высота окна"
 
 #: data/re.sonny.Tangram.gschema.xml:35
 msgid "Height of the window"
-msgstr "Высота окна"
+msgstr "Высота окна программы"
 
 #: data/re.sonny.Tangram.gschema.xml:40
 msgid "Window maximized"
 msgstr "Развернутое окно"
 
 #: data/re.sonny.Tangram.gschema.xml:41
-msgid "Weither the window is maximized"
+msgid "Whether the window is maximized"
 msgstr "Независимо от того, развернуто ли окно"
 
 #: data/re.sonny.Tangram.gschema.xml:46
@@ -183,7 +195,7 @@ msgstr "Процессы"
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
 msgstr "Идентификаторы экземпляров можно найти в /re/sonny/Tangram/instances/"
 
-#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.ui:29
+#: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
 msgstr "Название"
 
@@ -191,7 +203,7 @@ msgstr "Название"
 msgid "Name to display"
 msgstr "Видимое название"
 
-#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.ui:43
+#: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
 msgstr "URL-адресс"
 
@@ -199,7 +211,7 @@ msgstr "URL-адресс"
 msgid "Start URL"
 msgstr "Стартовый URL"
 
-#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.ui:79
+#: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
 msgstr "Пользовательский агент"
 
@@ -207,7 +219,7 @@ msgstr "Пользовательский агент"
 msgid "String that will be used as user agent, to identify the browser to the web servers."
 msgstr "Строка, которая будет использоваться в качестве пользовательского агента для идентификации браузера на веб-серверах."
 
-#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.ui:59
+#: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
 msgstr "Приоритет уведомлений"
 
@@ -215,116 +227,132 @@ msgstr "Приоритет уведомлений"
 msgid "Sets the priority of notifications"
 msgstr "Устанавливает приоритет уведомлений"
 
-#: data/menu.ui:11
-msgid "Top"
-msgstr "Сверху"
+#. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
+#: src/AboutDialog.js:35
+msgid "translator-credits"
+msgstr "Fedor <fed777os@gmail.com>, 2022 Artem Vorotnikov, 2023"
 
-#: data/menu.ui:16
-msgid "Left"
-msgstr "Слева"
+#: src/instanceDialog.blp:46
+msgid "Normal"
+msgstr "Нормальный"
 
-#: data/menu.ui:21
-msgid "Right"
-msgstr "Справа"
+#: src/instanceDialog.blp:46
+msgid "Low"
+msgstr "Низкий"
 
-#: data/menu.ui:26
-msgid "Bottom"
-msgstr "Снизу"
+#: src/instanceDialog.blp:46
+msgid "High"
+msgstr "Высокий"
 
-#: data/menu.ui:37
-msgid "Keyboard Shortcuts"
-msgstr "Горячие Клавиши"
+#: src/instanceDialog.blp:46
+msgid "Urgent"
+msgstr "Срочный"
 
-#: data/menu.ui:41
-msgid "About Tangram"
-msgstr "Про Tangram"
-
-#: data/shortcuts.ui:17
+#: src/shortcuts.blp:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Общие"
 
-#: data/shortcuts.ui:24
+#: src/shortcuts.blp:14
 msgctxt "shortcut window"
 msgid "Go to the next tab"
 msgstr "Перейти на следующую вкладку"
 
-#: data/shortcuts.ui:36
+#: src/shortcuts.blp:19
 msgctxt "shortcut window"
 msgid "Go to the previous tab"
 msgstr "Перейти на предыдущую вкладку"
 
-#: data/shortcuts.ui:48
+#: src/shortcuts.blp:24
 msgctxt "shortcut window"
 msgid "Move current tab to the left"
 msgstr "Переместить текущую вкладку влево"
 
-#: data/shortcuts.ui:60
+#: src/shortcuts.blp:29
 msgctxt "shortcut window"
 msgid "Move current tab to the right"
 msgstr "Переместить текущую вкладку вправо"
 
-#: data/shortcuts.ui:72
+#: src/shortcuts.blp:34
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Завершение приложения"
 
-#: data/shortcuts.ui:82
+#: src/shortcuts.blp:39
 msgctxt "shortcut window"
 msgid "Shortcuts"
 msgstr "Ярлыки"
 
-#: data/shortcuts.ui:92
+#: src/shortcuts.blp:44
 msgctxt "shortcut window"
 msgid "Toggle inspector"
 msgstr "Переключить инспектор"
 
-#: data/shortcuts.ui:104
+#: src/shortcuts.blp:49
 msgctxt "shortcut window"
 msgid "First – Ninth Tab"
 msgstr "Первая – девятая вкладка"
 
-#: data/shortcuts.ui:116
+#: src/shortcuts.blp:55
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Навигация"
 
-#: data/shortcuts.ui:123
+#: src/shortcuts.blp:58
 msgctxt "shortcut window"
 msgid "Go to homepage"
 msgstr "Перейти на домашнюю страницу"
 
-#: data/shortcuts.ui:133
+#: src/shortcuts.blp:63
 msgctxt "shortcut window"
 msgid "Reload current page"
 msgstr "Перезагрузить текущую страницу"
 
-#: data/shortcuts.ui:143
+#: src/shortcuts.blp:68
 msgctxt "shortcut window"
 msgid "Reload bypassing cache"
 msgstr "Перезагрузить в обход кеша"
 
-#: data/shortcuts.ui:155
+#: src/shortcuts.blp:73
 msgctxt "shortcut window"
 msgid "Stop loading current page"
 msgstr "Остановить загрузку текущей страницы"
 
-#: data/shortcuts.ui:165 data/shortcuts.ui:198
+#: src/shortcuts.blp:78 src/shortcuts.blp:94
 msgctxt "shortcut window"
 msgid "Go back to the previous page"
 msgstr "Вернуться к предыдущей странице"
 
-#: data/shortcuts.ui:175 data/shortcuts.ui:210
+#: src/shortcuts.blp:83 src/shortcuts.blp:99
 msgctxt "shortcut window"
 msgid "Go forward to the next page"
 msgstr "Перейти к следующей странице"
 
-#: data/shortcuts.ui:185
+#: src/shortcuts.blp:88
 msgctxt "shortcut window"
 msgid "Focus the address bar"
 msgstr "Фокус на адресной строке"
 
-#. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
-#: src/AboutDialog.js:35
-msgid "translator-credits"
-msgstr "авторы перевода"
+#: src/menu.blp:13
+msgid "Top"
+msgstr "Сверху"
+
+#: src/menu.blp:19
+msgid "Left"
+msgstr "Слева"
+
+#: src/menu.blp:25
+msgid "Right"
+msgstr "Справа"
+
+#: src/menu.blp:31
+msgid "Bottom"
+msgstr "Снизу"
+
+#: src/menu.blp:40
+msgid "Keyboard Shortcuts"
+msgstr "Комбинации клавиш"
+
+#: src/menu.blp:45
+msgid "About Tangram"
+msgstr "О приложении"

@@ -8,56 +8,54 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: 2024-12-03 13:00+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
-"Language-Team: Finnish <https://hosted.weblate.org/projects/tangram/tangram/fi/>\n"
-"Language: fi\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:5 data/re.sonny.Tangram.desktop:3
 msgid "Tangram"
-msgstr "Tangram"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:6
 msgid "Sonny Piers"
-msgstr "Sonny Piers"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:10
 #: data/re.sonny.Tangram.desktop:4
 msgid "Browser for your pinned tabs"
-msgstr "Selain kiinnitetyille välilehdillesi"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:13
 msgid "Tangram is a new kind of browser. It is designed to organize and run your Web applications. Each tab is persistent and independent. You can set multiple tabs with different accounts for the same application."
-msgstr "Tangram on uudentyyppinen verkkoselain. Se on suunniteltu järjestelemään ja suorittamaan verkkosovelluksia. Välilehdet ovat pysyviä ja itsenäisiä. Voit asettaa useamman välilehden käyttämaan eri käyttäjätunnuksia samalle sovellukselle."
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:17
 msgid "Common use cases:"
-msgstr "Yleisiä käyttötapauksia:"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:20
 msgid "Stay up to date with your favorite communities; Mastodon, Twitter, ..."
-msgstr "Seuraa suosikkiyhteisöjäsi; Mastodon, Twitter, …"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:22
 msgid "Merge all these chat applications into one; WhatsApp, Messenger, Telegram, ..."
-msgstr "Tuo kaikki viestintäsovellukset yhteen; WhatsApp, Messenger, Telegram, …"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:24
 msgid "Group your organization tools under one application; EMail, Calendar, ..."
-msgstr "Kokoa järjestösi työvälineet yhteen ohjelmistoon; Sähköposti, kalenteri, …"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:25
 msgid "One-stop for multiple sources of documentation or information"
-msgstr "Yksi pysähdys monelle tiedon tai dokumentaation lähteelle"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:43
 msgid "Fix a bug preventing to start Tangram"
-msgstr "Tangramin käynnistämisen estävän vian korjaaminen"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:44
 msgid "Reduce the noisiness of logs"
@@ -65,294 +63,294 @@ msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:52
 msgid "Fix a bug preventing to add new tabs"
-msgstr "Korjaa vika, joka estää uusien välilehtien lisäämisen"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:60
 msgid "Notifications priority is normal instead of urgent by default"
-msgstr "Ilmoitusten oletusprioriteetti on normaali kiireellisen sijaan"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:61
 msgid "Add a per-tab setting to change notifications priority"
-msgstr "Lisää välilehtikohtainen asetus muuttaaksesi ilmoitusten prioriteettia"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:62
 msgid "Fix authentication on many popular websites"
-msgstr "Korjaa monen suositun sivuston todennus"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:63
 msgid "Fix Cancel button in tab settings dialog"
-msgstr "korjaa Peruuta-painike välilehden asetusten valintaikkunassa"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:64
 msgid "Use middle-click or Ctrl+click to open links in the browser"
-msgstr "Käytä keskinapsautusta tai Ctrl+napsautusta linkkien avaamiseen selaimessa"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:72
 msgid "Fix window title"
-msgstr "Korjaa ikkunan otsikko"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:73
 msgid "Update GNOME runtime to 41"
-msgstr "Päivitä GNOME-ajoaika versioon 41"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:82
 msgid "Fix an issue preventing some sites such as Twitter or Facebook from being added."
-msgstr "Korjaa virhe joka estää joidenkin sivustojen kuten Twitter tai Facebook lisäämisen."
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:83
 msgid "Update GNOME runtime to 3.38"
-msgstr "Päivitä GNOME-ajoaika versioon 3.38"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:91
 msgid "Enable spell checking"
-msgstr "Ota käyttöön oikeinkirjoituksen tarkistus"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:92
 msgid "Customizable user-agent per instance"
-msgstr "Muokattava käyttäjäagentti joka välilehteä kohden"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:93
 msgid "New project icon/logo"
-msgstr "Uusi logo/kuvake projektille"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:94
 msgid "New tab background color respects dark mode"
-msgstr "Uuden välilehden tausta mukautuu tummaan tilaan"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:102
 msgid "Add support for downloading files"
-msgstr "Tue tiedostojen lataamista"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:103
 msgid "Add home button"
-msgstr "Lisää kotisivupainike"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:104
 msgid "Better desktop integration"
-msgstr "Parempi työpöydän integraatio"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:105
 msgid "Fix the main window becoming tiny when unmaximizing"
-msgstr "Korjaa pääikkunan pienentyminen ikkunan koon palautuessa"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:106
 msgid "Enable touchpad/touchscreen swipe navigation gestures"
-msgstr "Ota käyttöön kosketuslevyn/kosketusnäytön pyyhintäeleellinen ohjaus"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:114
 msgid "Better notifications handling"
-msgstr "Parempi ilmoitusten käsittely"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:115
 msgid "Improved web compatibility and performances"
-msgstr "Parannettu verkkoyhteensopivuus ja suoritus"
+msgstr ""
 
 #: data/appdata/re.sonny.Tangram.metainfo.xml:117
 msgid "Tangram now works properly on Flatpak 1.0 (Linux Mint, Ubuntu 18.04, ...)"
-msgstr "Tangram toimii nyt oikein Flatpak 1.0:lla (Linux Mint, Ubuntu 18.04, …)"
+msgstr ""
 
 #: data/re.sonny.Tangram.desktop:13
 msgid "Franz;Ferdi;Rambox;Wavebox;Station;"
-msgstr "Franz;Ferdi;Rambox;Wavebox;Station;"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
-msgstr "Välilehtien sijainti"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:23
 msgid "Sets the position of the tabs"
-msgstr "Asettaa välilehtien sijainnin"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:28
 msgid "Window width"
-msgstr "Ikkunan leveys"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:29
 msgid "Width of the window"
-msgstr "Ikkunan leveys"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:34
 msgid "Window height"
-msgstr "Ikkunan korkeus"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:35
 msgid "Height of the window"
-msgstr "Ikkunan korkeus"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:40
 msgid "Window maximized"
-msgstr "Ikkuna suurennettu"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:41
 msgid "Whether the window is maximized"
-msgstr "Onko ikkuna maksimoitu"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:46
 msgid "Instances"
-msgstr "Ilmentymät"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:48
 msgid "Identifiers of instances to be found in /re/sonny/Tangram/instances/"
-msgstr "Tunnisteet ilmentymille jotka löytyvät polusta /re/sonny/Tangram/instances/"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
-msgstr "Nimi"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:56
 msgid "Name to display"
-msgstr "Näytettävä nimi"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
-msgstr "URL-osoite"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:61
 msgid "Start URL"
-msgstr "Aloitus-URL"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
-msgstr "Käyttäjäagentti"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:67
 msgid "String that will be used as user agent, to identify the browser to the web servers."
-msgstr "Merkkijono, jota käytetään käyttäjäagenttina selaimen tunnistamiseen web-palvelimille."
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
-msgstr "Ilmoitusten prioriteetti"
+msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:75
 msgid "Sets the priority of notifications"
-msgstr "Asettaa ilmoitusten prioriteetin"
+msgstr ""
 
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
 msgid "translator-credits"
-msgstr "kääntäjän arvosanat"
+msgstr ""
 
 #: src/instanceDialog.blp:46
 msgid "Normal"
-msgstr "Normaali"
+msgstr ""
 
 #: src/instanceDialog.blp:46
 msgid "Low"
-msgstr "Alhainen"
+msgstr ""
 
 #: src/instanceDialog.blp:46
 msgid "High"
-msgstr "Korkea"
+msgstr ""
 
 #: src/instanceDialog.blp:46
 msgid "Urgent"
-msgstr "Kiireellinen"
+msgstr ""
 
 #: src/shortcuts.blp:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Yleiset"
+msgstr ""
 
 #: src/shortcuts.blp:14
 msgctxt "shortcut window"
 msgid "Go to the next tab"
-msgstr "Siirry seuraavaan välilehteen"
+msgstr ""
 
 #: src/shortcuts.blp:19
 msgctxt "shortcut window"
 msgid "Go to the previous tab"
-msgstr "Siirry edelliseen välilehteen"
+msgstr ""
 
 #: src/shortcuts.blp:24
 msgctxt "shortcut window"
 msgid "Move current tab to the left"
-msgstr "Siirrä nykyinen välilehti vasemmalle"
+msgstr ""
 
 #: src/shortcuts.blp:29
 msgctxt "shortcut window"
 msgid "Move current tab to the right"
-msgstr "Siirrä nykyinen välilehti oikealle"
+msgstr ""
 
 #: src/shortcuts.blp:34
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Lopeta"
+msgstr ""
 
 #: src/shortcuts.blp:39
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr "Pikanäppäimet"
+msgstr ""
 
 #: src/shortcuts.blp:44
 msgctxt "shortcut window"
 msgid "Toggle inspector"
-msgstr "Tarkastaja päälle/pois"
+msgstr ""
 
 #: src/shortcuts.blp:49
 msgctxt "shortcut window"
 msgid "First – Ninth Tab"
-msgstr "1. - 9. välilehti"
+msgstr ""
 
 #: src/shortcuts.blp:55
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Liikkuminen"
+msgstr ""
 
 #: src/shortcuts.blp:58
 msgctxt "shortcut window"
 msgid "Go to homepage"
-msgstr "Siirry kotisivulle"
+msgstr ""
 
 #: src/shortcuts.blp:63
 msgctxt "shortcut window"
 msgid "Reload current page"
-msgstr "Lataa nykyinen sivu uudelleen"
+msgstr ""
 
 #: src/shortcuts.blp:68
 msgctxt "shortcut window"
 msgid "Reload bypassing cache"
-msgstr "Lataa sivu uudelleen ohittaen välimuisti"
+msgstr ""
 
 #: src/shortcuts.blp:73
 msgctxt "shortcut window"
 msgid "Stop loading current page"
-msgstr "Lopeta nykyisen sivun lataaminen"
+msgstr ""
 
 #: src/shortcuts.blp:78 src/shortcuts.blp:94
 msgctxt "shortcut window"
 msgid "Go back to the previous page"
-msgstr "Siirry edelliselle sivulle"
+msgstr ""
 
 #: src/shortcuts.blp:83 src/shortcuts.blp:99
 msgctxt "shortcut window"
 msgid "Go forward to the next page"
-msgstr "Siirry seuraavalle sivulle"
+msgstr ""
 
 #: src/shortcuts.blp:88
 msgctxt "shortcut window"
 msgid "Focus the address bar"
-msgstr "Kohdista osoiteriville"
+msgstr ""
 
 #: src/menu.blp:13
 msgid "Top"
-msgstr "Yläosa"
+msgstr ""
 
 #: src/menu.blp:19
 msgid "Left"
-msgstr "Vasen"
+msgstr ""
 
 #: src/menu.blp:25
 msgid "Right"
-msgstr "Oikea"
+msgstr ""
 
 #: src/menu.blp:31
 msgid "Bottom"
-msgstr "Alaosa"
+msgstr ""
 
 #: src/menu.blp:40
 msgid "Keyboard Shortcuts"
-msgstr "Pikanäppäimet"
+msgstr ""
 
 #: src/menu.blp:45
 msgid "About Tangram"
-msgstr "Tietoja - Tangram"
+msgstr ""
