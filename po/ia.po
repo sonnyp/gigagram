@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: re.sonny.Tangram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 16:27+0200\n"
-"PO-Revision-Date: 2025-02-01 23:01+0000\n"
+"PO-Revision-Date: 2025-02-03 05:01+0000\n"
 "Last-Translator: \"Emilio S.\" <emism.translations@gmail.com>\n"
 "Language-Team: Interlingua <https://hosted.weblate.org/projects/tangram/tangram/ia/>\n"
 "Language: ia\n"
@@ -157,11 +157,11 @@ msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:22 src/menu.blp:9
 msgid "Tabs position"
-msgstr ""
+msgstr "Position del schedas"
 
 #: data/re.sonny.Tangram.gschema.xml:23
 msgid "Sets the position of the tabs"
-msgstr ""
+msgstr "Definir le position del schedas"
 
 #: data/re.sonny.Tangram.gschema.xml:28
 msgid "Window width"
@@ -197,19 +197,19 @@ msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:55 src/instanceDialog.blp:24
 msgid "Name"
-msgstr ""
+msgstr "Nomine"
 
 #: data/re.sonny.Tangram.gschema.xml:56
 msgid "Name to display"
-msgstr ""
+msgstr "Nomine a monstrar"
 
 #: data/re.sonny.Tangram.gschema.xml:60 src/instanceDialog.blp:34
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: data/re.sonny.Tangram.gschema.xml:61
 msgid "Start URL"
-msgstr ""
+msgstr "URL de initio"
 
 #: data/re.sonny.Tangram.gschema.xml:65 src/instanceDialog.blp:52
 msgid "User agent"
@@ -221,11 +221,11 @@ msgstr ""
 
 #: data/re.sonny.Tangram.gschema.xml:74 src/instanceDialog.blp:44
 msgid "Notifications priority"
-msgstr ""
+msgstr "Prioritate del notificationes"
 
 #: data/re.sonny.Tangram.gschema.xml:75
 msgid "Sets the priority of notifications"
-msgstr ""
+msgstr "Define le prioritate del notificationes"
 
 #. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
 #: src/AboutDialog.js:35
@@ -256,12 +256,12 @@ msgstr ""
 #: src/shortcuts.blp:14
 msgctxt "shortcut window"
 msgid "Go to the next tab"
-msgstr ""
+msgstr "Vader al scheda sequente"
 
 #: src/shortcuts.blp:19
 msgctxt "shortcut window"
 msgid "Go to the previous tab"
-msgstr ""
+msgstr "Vader al scheda precedente"
 
 #: src/shortcuts.blp:24
 msgctxt "shortcut window"
@@ -351,8 +351,8 @@ msgstr ""
 
 #: src/menu.blp:40
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Commandos curte de claviero"
 
 #: src/menu.blp:45
 msgid "About Tangram"
-msgstr ""
+msgstr "A proposito de Tangram"
